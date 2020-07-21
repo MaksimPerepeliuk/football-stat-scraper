@@ -1,15 +1,13 @@
-import logging
-import logging.config
-from settings import logger_config
-
-
-logging.config.dictConfig(logger_config)
-logger = logging.getLogger('app_logger')
-logging.basicConfig(level=logging.INFO)
+from loggers import debug_log, info_log, err_log
 
 
 def main():
-    logger.info('Hello world')
+    debug_log('debug')
+    info_log('info')
+    try:
+        'fdsfsd' - 10
+    except Exception:
+        err_log('error')
 
 
 if __name__ == '__main__':
