@@ -21,7 +21,7 @@ logger_config = {
             'formatter': 'std_format',
             'filename': 'foot_stat_scraper/logs/info.log',
             'encoding': 'utf8',
-            'mode': 'w'
+            'mode': 'a'
         },
         'debug_file_handler': {
             'class': 'logging.FileHandler',
@@ -29,7 +29,7 @@ logger_config = {
             'formatter': 'std_format',
             'filename': 'foot_stat_scraper/logs/debug.log',
             'encoding': 'utf8',
-            'mode': 'w'
+            'mode': 'a'
         },
         'error_file_handler': {
             'class': 'logging.FileHandler',
@@ -37,14 +37,14 @@ logger_config = {
             'formatter': 'std_format',
             'filename': 'foot_stat_scraper/logs/error.log',
             'encoding': 'utf8',
-            'mode': 'w'
+            'mode': 'a'
         }
     },
     'loggers': {
         'debug_logger': {
             'level': 'DEBUG',
             'propagate': 'no',
-            'handlers': ['debug_file_handler', 'error_file_handler'],
+            'handlers': ['console', 'debug_file_handler'],
         },
         'info_logger': {
             'level': 'INFO',

@@ -1,4 +1,4 @@
-from loggers import debug_log, info_log, err_log
+from .loggers import debug_log, info_log, err_log
 
 
 def main():

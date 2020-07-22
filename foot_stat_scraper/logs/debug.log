@@ -1,1 +1,115 @@
-# DEBUG    test_log.py[LINE:5][2020-07-21 23:11:02,914] debug
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:08,921] get events page #0
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:11,014] get events page #1
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:14,081] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:14,081] get events page #2
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:16,156] get events page #3
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:19,198] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:19,199] get events page #4
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:21,229] get events page #5
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:23,237] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:23,237] get events page #6
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:25,244] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:25,244] get events page #7
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:27,257] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:27,257] get events page #8
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:29,268] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:29,268] get events page #9
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:31,277] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:31,277] get events page #10
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:33,283] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:33,283] get events page #11
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:35,293] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:35,293] get events page #12
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:37,300] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:37,300] get events page #13
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:39,307] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:39,307] get events page #14
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:41,317] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:41,317] get events page #15
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:43,328] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:43,328] get events page #16
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:45,335] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:45,335] get events page #17
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:47,344] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:47,344] get events page #18
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:49,352] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:49,352] get events page #19
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:51,363] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:51,364] get events page #20
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:53,374] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:53,374] get events page #21
+# DEBUG    events_urls_parse.py[LINE:34][2020-07-22 15:26:55,381] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:26:55,381] get events page #22
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:34,239] get events page #0
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:36,315] get events page #1
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:39,374] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:39,374] get events page #2
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:41,441] get events page #3
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:44,016] get events page #4
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:46,031] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:46,031] get events page #5
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:48,038] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:48,038] get events page #6
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:50,052] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:50,052] get events page #7
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:52,066] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:52,066] get events page #8
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:54,077] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:54,077] get events page #9
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:56,085] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:56,085] get events page #10
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:37:58,097] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:37:58,097] get events page #11
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:00,112] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:00,112] get events page #12
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:02,121] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:02,122] get events page #13
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:04,127] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:04,127] get events page #14
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:06,136] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:06,136] get events page #15
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:08,145] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:08,145] get events page #16
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:10,154] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:10,154] get events page #17
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:12,165] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:12,165] get events page #18
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:38:14,171] All events open
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:38:14,172] get events page #19
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:40:11,984] get events page #0
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:40:14,052] get events page #1
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:40:16,086] get events page #2
+# DEBUG    events_urls_parse.py[LINE:30][2020-07-22 15:40:18,130] get events page #3
+# DEBUG    events_urls_parse.py[LINE:36][2020-07-22 15:40:20,138] All events open
+# DEBUG    events_urls_parse.py[LINE:38][2020-07-22 15:40:20,138] start getting events line
+# DEBUG    events_urls_parse.py[LINE:44][2020-07-22 15:40:23,383] got 308 events id
+# DEBUG    events_urls_parse.py[LINE:25][2020-07-22 15:43:34,181] Open page - https://www.flashscore.ru/football/germany/bundesliga-2017-2018/results/
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:43:35,261] get events page #0
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:43:37,355] get events page #1
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:43:39,398] get events page #2
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:43:41,430] get events page #3
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:43:44,494] All events open
+# DEBUG    events_urls_parse.py[LINE:39][2020-07-22 15:43:44,494] start getting events line
+# DEBUG    events_urls_parse.py[LINE:25][2020-07-22 15:44:24,926] Open page - https://www.flashscore.ru/football/germany/bundesliga-2017-2018/results/
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:44:26,019] get events page #0
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:44:28,105] get events page #1
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:44:30,172] get events page #2
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:44:32,213] get events page #3
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:44:34,224] All events open
+# DEBUG    events_urls_parse.py[LINE:39][2020-07-22 15:44:34,224] start getting events line
+# DEBUG    events_urls_parse.py[LINE:25][2020-07-22 15:45:36,125] Open page - https://www.flashscore.ru/football/germany/bundesliga-2017-2018/results/
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:45:37,281] get events page #0
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:45:39,376] get events page #1
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:45:41,414] get events page #2
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:45:43,493] get events page #3
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:45:45,508] All events open
+# DEBUG    events_urls_parse.py[LINE:39][2020-07-22 15:45:45,508] start getting events line
+# DEBUG    events_urls_parse.py[LINE:44][2020-07-22 15:45:48,667] got 308 events id
+# DEBUG    events_urls_parse.py[LINE:25][2020-07-22 15:46:48,155] Open page - https://www.flashscore.ru/football/germany/bundesliga-2017-2018/results/
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:46:49,219] get events page #1
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:46:51,276] get events page #2
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:46:53,306] get events page #3
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:46:55,345] get events page #4
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:46:57,351] All events open
+# DEBUG    events_urls_parse.py[LINE:39][2020-07-22 15:46:57,351] start getting events line
+# DEBUG    events_urls_parse.py[LINE:44][2020-07-22 15:47:00,562] got 308 events id

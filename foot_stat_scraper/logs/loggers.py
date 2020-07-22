@@ -1,6 +1,6 @@
 import logging
 import logging.config
-from settings import logger_config
+from .settings import logger_config
 
 
 logging.config.dictConfig(logger_config)
