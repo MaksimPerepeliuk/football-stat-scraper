@@ -1,0 +1,14 @@
+# ERROR    tempCodeRunnerFile.py[LINE:44][2020-07-22 22:58:13,887] Error rec in database
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/tempCodeRunnerFile.py", line 41, in get_championate_urls
+    insert_into_champ_urls(country, season, championate, champ_url)
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/foot_stat_orm.py", line 14, in insert_into_champ_urls
+    with conn.cursor() as cursor:
+psycopg2.InterfaceError: connection already closed
+# ERROR    tempCodeRunnerFile.py[LINE:44][2020-07-22 22:58:13,987] Error rec in database
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/tempCodeRunnerFile.py", line 41, in get_championate_urls
+    insert_into_champ_urls(country, season, championate, champ_url)
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/foot_stat_orm.py", line 14, in insert_into_champ_urls
+    with conn.cursor() as cursor:
+psycopg2.InterfaceError: connection already closed

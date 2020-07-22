@@ -52,7 +52,7 @@ logger_config = {
         },
         'error_logger': {
             'level': 'ERROR',
-            'handlers': ['error_file_handler'],
+            'handlers': ['console', 'error_file_handler'],
         },
     },
 }

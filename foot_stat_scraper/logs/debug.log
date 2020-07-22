@@ -113,3 +113,55 @@
 # DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:46:57,351] All events open
 # DEBUG    events_urls_parse.py[LINE:39][2020-07-22 15:46:57,351] start getting events line
 # DEBUG    events_urls_parse.py[LINE:44][2020-07-22 15:47:00,562] got 308 events id
+# DEBUG    events_urls_parse.py[LINE:25][2020-07-22 15:49:46,012] Open page - https://www.flashscore.ru/football/germany/bundesliga-2017-2018/results/
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:49:47,338] get events page #1
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:49:49,413] get events page #2
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:49:51,453] get events page #3
+# DEBUG    events_urls_parse.py[LINE:31][2020-07-22 15:49:53,490] get events page #4
+# DEBUG    events_urls_parse.py[LINE:37][2020-07-22 15:49:56,557] All events open
+# DEBUG    events_urls_parse.py[LINE:39][2020-07-22 15:49:56,557] start getting events line
+# DEBUG    events_urls_parse.py[LINE:44][2020-07-22 15:49:59,637] got 308 events id
+# DEBUG    tempCodeRunnerFile.py[LINE:40][2020-07-22 21:54:43,098] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:40][2020-07-22 21:57:04,425] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:40][2020-07-22 21:58:58,596] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:40][2020-07-22 22:06:43,861] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 22:58:13,807] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 22:58:13,810] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 22:58:13,887] received Аргентина 2018/2019 Суперлига https://www.flashscore.ru/football/argentina/superliga-2018-2019/
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 22:58:13,987] received Аргентина 2017/2018 Суперлига https://www.flashscore.ru/football/argentina/superliga-2017-2018/
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:00:44,263] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:00:44,276] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:00:44,348] received Аргентина 2018/2019 Суперлига https://www.flashscore.ru/football/argentina/superliga-2018-2019/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:00:44,359] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:00:44,434] received Аргентина 2017/2018 Суперлига https://www.flashscore.ru/football/argentina/superliga-2017-2018/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:00:44,444] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:02:08,582] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:02:08,593] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:02:08,680] received Аргентина 2018/2019 Суперлига https://www.flashscore.ru/football/argentina/superliga-2018-2019/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:02:08,687] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:02:08,815] received Аргентина 2017/2018 Суперлига https://www.flashscore.ru/football/argentina/superliga-2017-2018/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:02:08,827] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:05:58,358] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:05:58,385] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:05:58,645] received Аргентина 2018/2019 Суперлига https://www.flashscore.ru/football/argentina/superliga-2018-2019/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:05:58,653] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:05:58,944] received Аргентина 2017/2018 Суперлига https://www.flashscore.ru/football/argentina/superliga-2017-2018/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:05:58,953] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:08:11,314] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:08:11,326] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:08:11,448] received Аргентина 2018/2019 Суперлига https://www.flashscore.ru/football/argentina/superliga-2018-2019/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:08:11,461] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:08:11,549] received Аргентина 2017/2018 Суперлига https://www.flashscore.ru/football/argentina/superliga-2017-2018/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:08:11,560] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:15:12,440] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:15:12,458] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:15:12,580] received Аргентина 2018/2019 Суперлига https://www.flashscore.ru/football/argentina/superliga-2018-2019/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:15:12,593] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:15:12,706] received Аргентина 2017/2018 Суперлига https://www.flashscore.ru/football/argentina/superliga-2017-2018/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:15:12,717] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:17:22,296] received Аргентина 2019/2020 Суперлига https://www.flashscore.ru/football/argentina/superliga/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:17:22,309] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:17:22,430] received Аргентина 2018/2019 Суперлига https://www.flashscore.ru/football/argentina/superliga-2018-2019/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:17:22,444] recorded data in database table
+# DEBUG    tempCodeRunnerFile.py[LINE:39][2020-07-22 23:17:22,538] received Аргентина 2017/2018 Суперлига https://www.flashscore.ru/football/argentina/superliga-2017-2018/
+# DEBUG    tempCodeRunnerFile.py[LINE:42][2020-07-22 23:17:22,550] recorded data in database table
