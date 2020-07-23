@@ -41,7 +41,7 @@ logger_config = {
         }
     },
     'loggers': {
-        'debug_logger': {
+        'app_logger': {
             'level': 'DEBUG',
             'propagate': 'no',
             'handlers': ['debug_file_handler',

@@ -1,4 +1,4 @@
-from logs.loggers import debug_log, err_log, info_log
+from logs.loggers import app_logger
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
@@ -16,8 +16,8 @@ driver = webdriver.Chrome(options=chrome_options,
 
 def normalize_list_urls(urls):
     stop_strings = ['', ' ']
-    clear_urls = list(filter(lambda url: url not in stop_strings, urls))
-    return [url.strip() for url in clear_urls]
+    filtered_urls = list(filter(lambda url: url not in stop_strings, urls))
+    return [url.strip() for url in filtered_urls]
 
 
 def get_country_urls():
@@ -30,14 +30,14 @@ def write_url_in_file(url):
         file.write(f'{url}, ')
 
 
-def make_file_champ_urls(country_urls):
+def make_file_champ_urls(country_urls, amount_seasons=4):
     for url in tqdm(country_urls):
         archive_url = url + 'archive/'
         driver.get(archive_url)
         time.sleep(1)
         champs_by_years = driver.find_elements_by_css_selector(
             'div.leagueTable__season div.leagueTable__seasonName')
-        for i, champ in enumerate(champs_by_years[:3]):
+        for i, champ in enumerate(champs_by_years[:amount_seasons + 1]):
             champ_text = champ.find_element_by_css_selector('a').text
             season = champ_text.split(' ')[1]
             country = driver.find_element_by_css_selector(
@@ -45,10 +45,12 @@ def make_file_champ_urls(country_urls):
             try:
                 champ_url = champ.find_element_by_css_selector(
                     'a').get_attribute('href')
-                debug_log(f'received url - {champ_url} by {country} {season}')
+                app_logger.debug(
+                    f'received url - {champ_url} by {country} {season}')
                 write_url_in_file(champ_url)
             except Exception:
-                err_log('\nError getting or writing in file element')
+                app_logger.exception(
+                    '\nError getting or writing in file element')
 
 
 def make_url_event(events_id):
@@ -61,19 +63,19 @@ def make_url_event(events_id):
 
 def get_events_urls(champoinate_url):
     driver.get(champoinate_url)
-    debug_log(f'Open page - {champoinate_url}')
+    app_logger.debug(f'Open page - {champoinate_url}')
     time.sleep(1)
     more_event = driver.find_element_by_css_selector('a.event__more')
     more_event.send_keys(Keys.END)
     try:
         for i in range(1, 11):
-            debug_log(f'get events page #{i}')
-            time.sleep(2)
+            app_logger.debug(f'get events page #{i}')
+            time.sleep(1)
             more_event.click()
             if i > 8:
-                debug_log('too many pages open')
+                app_logger.debug('too many pages open')
     except Exception:
-        debug_log('All events open\n')
+        app_logger.debug('All events open\n')
     time.sleep(1)
     events_lines = driver.find_elements_by_css_selector(
         'div.sportName div.event__match')
@@ -84,21 +86,24 @@ def get_events_urls(champoinate_url):
 def main(champ_urls):
     count_records = 0
     for champ_url in tqdm(champ_urls):
-        time.sleep(2)
+        time.sleep(1)
         try:
             events_urls = normalize_list_urls(
                 get_events_urls(champ_url + 'results/'))
-            info_log(f'Received {len(events_urls)} events urls')
+            app_logger.info(f'Received {len(events_urls)} events urls')
             [insert_into_events_urls(event_url) for event_url in (events_urls)]
-            info_log(f'Record in db {len(events_urls)} urls ')
+            app_logger.info(f'Record in db {len(events_urls)} urls ')
             count_records += len(events_urls)
-            info_log(f'Total number of records = {count_records}\n')
+            app_logger.info(f'Total number of records = {count_records}\n')
         except Exception:
-            err_log('\nreceive or record error')
+            app_logger.exception('\nreceive or record error')
     driver.quit()
 
 
 if __name__ == '__main__':
+    country_urls = normalize_list_urls(
+        open('foot_stat_scraper/country_urls.txt').read().split(', '))
+    make_file_champ_urls(country_urls)
     champ_urls = champ_urls = open(
         'foot_stat_scraper/champ_urls.txt').read().split(', ')
     main(champ_urls)
