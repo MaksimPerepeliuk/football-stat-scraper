@@ -26,17 +26,21 @@ def get_html(url):
     print(r.ok)
 
 
-def get_data_in_table(trs, type_odds=None):
+def get_data_from_table(trs, type_odds=None):
     result = []
     for tr in trs[2:]:
-        tds = tr.select('td')
-        min_match = tds[0].text
-        score = tds[1].text
-        home_odds = tds[2].text
-        draw_or_value = tds[3].text
-        away_odds = tds[4].text
-        status = tds[6].text
-        variable_name = 'draw_odds' if type_odds == '1x2' else 'value'
+        try:
+            tds = tr.select('td')
+            min_match = tds[0].text
+            score = tds[1].text
+            home_odds = tds[2].text
+            draw_or_value = tds[3].text
+            away_odds = tds[4].text
+            status = tds[6].text
+            variable_name = 'draw_odds' if type_odds == '1x2' else 'value'
+        except Exception:
+            app_logger.exception('Error received html element')
+
         result.append({'min_match': min_match, 'score': score,
                        'home_odds': home_odds,
                        f'{variable_name}': draw_or_value,
@@ -44,8 +48,23 @@ def get_data_in_table(trs, type_odds=None):
     return result
 
 
+def replace_HT(stats):
+    for stat in stats:
+        stat['min_match'] = stat['min_match'].replace('HT', '450')
+    return stats
+
+
 def select_stat_by_minutes(stats, interval_minutes=10):
-    pass
+    stats_only_run = replace_HT(
+        list(filter(lambda stat: stat['status'] == 'Run', stats)))
+    run_minute = int(stats_only_run[-1]['min_match'])
+    stats_by_interval = []
+    for stat in stats_only_run[::-1]:
+        minute = int(stat['min_match'])
+        if minute >= run_minute + interval_minutes:
+            stats_by_interval.append(stat)
+            run_minute = minute if minute != 450 else 45
+    return stats_by_interval
 
 
 def select_pre_match_line(stats, type_odds):
@@ -70,10 +89,13 @@ def select_pre_match_line(stats, type_odds):
 def get_stat(html):
     soup = BeautifulSoup(html, 'lxml')
     HDA_odds, AH_odds, OU_odds = soup.select('div#oddsDetai div')[0:3]
-    HDA_stat = get_data_in_table(HDA_odds.select('tr'), '1x2')
-    AH_stat = get_data_in_table(AH_odds.select('tr'))
-    OU_stat = get_data_in_table(OU_odds.select('tr'))
-    print(select_pre_match_line(OU_stat, 'OU'))
+    HDA_stat = get_data_from_table(HDA_odds.select('tr'), '1x2')
+    AH_stat = get_data_from_table(AH_odds.select('tr'))
+    OU_stat = get_data_from_table(OU_odds.select('tr'))
+    open_close_HDA = select_pre_match_line(HDA_stat, '1x2')
+    open_close_AH = select_pre_match_line(HDA_stat, 'AH')
+    open_close_OU = select_pre_match_line(HDA_stat, 'OU')
+    print(111111111, select_stat_by_minutes(OU_stat))
 
 
 get_stat(get_html('http://data.nowgoal.group/3in1odds/3_861230.html'))
