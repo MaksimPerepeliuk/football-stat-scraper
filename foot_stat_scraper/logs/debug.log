@@ -3275,3 +3275,151 @@ TypeError: list indices must be integers or slices, not str
 # DEBUG    ng_stat_parse.py[LINE:106][2020-07-24 14:24:02,678] Received HDA, AH, OU statistics by minutes
 # DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 14:24:02,678] Added prematch line move
 # INFO     ng_stat_parse.py[LINE:119][2020-07-24 14:24:02,815] Formed objects with stats cnt keys=30
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 15:47:32,522] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 15:47:32,523] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 15:47:32,659] Formed objects with stats cnt keys=30
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 15:58:01,430] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 15:58:01,431] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 15:58:01,570] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:108][2020-07-24 16:14:40,555] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:113][2020-07-24 16:14:40,555] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:121][2020-07-24 16:14:40,699] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:108][2020-07-24 16:16:38,839] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:113][2020-07-24 16:16:38,839] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:124][2020-07-24 16:16:38,839] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 115, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 60, in select_stat_in_HT
+    print(keys)
+UnboundLocalError: local variable 'keys' referenced before assignment
+# DEBUG    ng_stat_parse.py[LINE:108][2020-07-24 16:16:47,959] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:113][2020-07-24 16:16:47,960] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:124][2020-07-24 16:16:47,960] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 115, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 60, in select_stat_in_HT
+    print(keys)
+UnboundLocalError: local variable 'keys' referenced before assignment
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 16:18:14,540] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 16:18:14,541] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:126][2020-07-24 16:18:14,541] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 117, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in select_stat_in_HT
+    print(keys)
+UnboundLocalError: local variable 'keys' referenced before assignment
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 16:18:27,824] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 16:18:27,824] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:123][2020-07-24 16:18:27,960] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 16:19:42,208] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:116][2020-07-24 16:19:42,208] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:124][2020-07-24 16:19:42,345] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:108][2020-07-24 16:20:57,141] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:113][2020-07-24 16:20:57,141] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:121][2020-07-24 16:20:57,284] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:108][2020-07-24 16:22:19,413] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:113][2020-07-24 16:22:19,413] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:121][2020-07-24 16:22:19,557] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 16:27:04,722] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 16:27:04,723] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:123][2020-07-24 16:27:04,862] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 16:30:30,318] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:116][2020-07-24 16:30:30,318] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:127][2020-07-24 16:30:30,318] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 118, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 16:31:22,788] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:117][2020-07-24 16:31:22,789] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:128][2020-07-24 16:31:22,789] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 119, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# DEBUG    ng_stat_parse.py[LINE:118][2020-07-24 16:39:07,327] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:123][2020-07-24 16:39:07,327] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:134][2020-07-24 16:39:07,327] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 125, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# DEBUG    ng_stat_parse.py[LINE:118][2020-07-24 16:39:29,598] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:123][2020-07-24 16:39:29,598] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:134][2020-07-24 16:39:29,598] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 125, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# DEBUG    ng_stat_parse.py[LINE:118][2020-07-24 16:41:03,537] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:123][2020-07-24 16:41:03,537] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:134][2020-07-24 16:41:03,537] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 125, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# DEBUG    ng_stat_parse.py[LINE:106][2020-07-24 16:43:03,569] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 16:43:03,570] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 16:43:03,706] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 16:53:57,720] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 16:53:57,720] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 16:53:57,862] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 16:54:54,073] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 16:54:54,073] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 16:54:54,207] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:00:24,839] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:00:24,840] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:00:24,985] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:07:49,551] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:07:49,552] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:07:49,684] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:10:46,960] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:10:46,960] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:10:47,101] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:12:29,567] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:12:29,567] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:12:29,710] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:15:03,243] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:15:03,244] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:15:03,377] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:15:19,717] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:15:19,717] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:15:19,849] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:15:47,457] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:15:47,457] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:15:47,589] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:21:09,917] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:21:09,917] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:21:10,059] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:33:03,492] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:33:03,492] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:33:03,629] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:34:14,478] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:34:14,478] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:34:14,620] Formed objects with stats cnt keys=34
+# DEBUG    ng_stat_parse.py[LINE:107][2020-07-24 17:34:38,556] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:112][2020-07-24 17:34:38,557] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:120][2020-07-24 17:34:38,694] Formed objects with stats cnt keys=34

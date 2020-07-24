@@ -1,8 +1,9 @@
+import datetime
 import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from logs.loggers import app_logger
-import datetime
+from db_manager import insert_into_ng_odds
 
 
 def convert_urls():
@@ -72,8 +73,9 @@ def select_pre_match_line(stats, type_odds):
                 f'close_{type_odds}_draw_odds': pre_match_line[0]['draw_odds'],
                 f'open_{type_odds}_away_odds': pre_match_line[-1]['away_odds'],
                 f'close_{type_odds}_away_odds': pre_match_line[0]['away_odds']}
-
-    return {f'open_{type_odds}_home_odds': pre_match_line[-1]['home_odds'],
+    return {f'open_{type_odds}_value': pre_match_line[-1]['value'],
+            f'close_{type_odds}_value': pre_match_line[0]['value'],
+            f'open_{type_odds}_home_odds': pre_match_line[-1]['home_odds'],
             f'close_{type_odds}_home_odds': pre_match_line[0]['home_odds'],
             f'open_{type_odds}_away_odds': pre_match_line[-1]['away_odds'],
             f'close_{type_odds}_away_odds': pre_match_line[0]['away_odds']}
@@ -120,7 +122,7 @@ def get_stat(html):
     except Exception:
         app_logger.exception('Error received stats in table data')
 
-    print(111111111, summary_stats)
+    insert_into_ng_odds(summary_stats)
 
 
 get_stat(get_html('http://data.nowgoal.group/3in1odds/3_1432807.html'))

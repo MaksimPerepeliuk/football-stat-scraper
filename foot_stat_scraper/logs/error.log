@@ -371,3 +371,69 @@ Traceback (most recent call last):
   File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 123, in get_stat
     detail_url = soup.select('li#menu1 a')['href']
 TypeError: list indices must be integers or slices, not str
+# ERROR    ng_stat_parse.py[LINE:124][2020-07-24 16:16:38,839] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 115, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 60, in select_stat_in_HT
+    print(keys)
+UnboundLocalError: local variable 'keys' referenced before assignment
+# ERROR    ng_stat_parse.py[LINE:124][2020-07-24 16:16:47,960] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 115, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 60, in select_stat_in_HT
+    print(keys)
+UnboundLocalError: local variable 'keys' referenced before assignment
+# ERROR    ng_stat_parse.py[LINE:126][2020-07-24 16:18:14,541] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 117, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in select_stat_in_HT
+    print(keys)
+UnboundLocalError: local variable 'keys' referenced before assignment
+# ERROR    ng_stat_parse.py[LINE:127][2020-07-24 16:30:30,318] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 118, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# ERROR    ng_stat_parse.py[LINE:128][2020-07-24 16:31:22,789] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 119, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 62, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# ERROR    ng_stat_parse.py[LINE:134][2020-07-24 16:39:07,327] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 125, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# ERROR    ng_stat_parse.py[LINE:134][2020-07-24 16:39:29,598] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 125, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
+# ERROR    ng_stat_parse.py[LINE:134][2020-07-24 16:41:03,537] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 125, in get_stat
+    for stat in select_stat_in_HT(HDA_stat, '1x2')]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in select_stat_in_HT
+    empty_stats = [{key: None} for key, value in keys]
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 68, in <listcomp>
+    empty_stats = [{key: None} for key, value in keys]
+ValueError: too many values to unpack (expected 2)
