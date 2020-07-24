@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from logs.loggers import app_logger
+import datetime
 
 
 def convert_urls():
@@ -20,9 +21,9 @@ def get_html(url):
     r = requests.get(url, headers={'User-Agent': user_agent})
     if r.ok:
         return r.text
-        app_logger.debug(f'Received html page {r.status_code}')
+        app_logger.debug(f'Received html page {url} code = {r.status_code}')
     else:
-        app_logger.exception(f'Error getting html page {r.status_code}')
+        app_logger.exception(f'Error getting html page {url} {r.status_code}')
     print(r.ok)
 
 
@@ -48,29 +49,21 @@ def get_data_from_table(trs, type_odds=None):
     return result
 
 
-def replace_HT(stats):
+def select_stat_in_HT(stats, type_odds):
+    stats_in_HT = []
     for stat in stats:
-        stat['min_match'] = stat['min_match'].replace('HT', '450')
-    return stats
-
-
-def select_stat_by_minutes(stats, interval_minutes=10):
-    stats_only_run = replace_HT(
-        list(filter(lambda stat: stat['status'] == 'Run', stats)))
-    run_minute = int(stats_only_run[-1]['min_match'])
-    stats_by_interval = []
-    for stat in stats_only_run[::-1]:
-        minute = int(stat['min_match'])
-        if minute >= run_minute + interval_minutes:
-            stats_by_interval.append(stat)
-            run_minute = minute if minute != 450 else 45
-    return stats_by_interval
+        if stat['min_match'] == 'HT':
+            keys = [type_odds + '_' + key + '_HT' for key in stat.keys()]
+            new_stats = [{key: value}
+                         for key, value in zip(keys, stat.values())]
+            [stats_in_HT.append(new_stat) for new_stat in new_stats]
+    return stats_in_HT
 
 
 def select_pre_match_line(stats, type_odds):
     pre_match_line = []
     for stat in stats:
-        if stat['status'] == 'Live':
+        if stat['status'].strip() == 'Live':
             pre_match_line.append(stat)
     if type_odds == '1x2':
         return {f'open_{type_odds}_home_odds': pre_match_line[-1]['home_odds'],
@@ -86,16 +79,48 @@ def select_pre_match_line(stats, type_odds):
             f'close_{type_odds}_away_odds': pre_match_line[0]['away_odds']}
 
 
+def get_match_info(soup):
+    a = soup.select('div.fbheader a')
+    date_block = soup.select('div.fbheader div.row script')
+    date_parts = str(date_block[0].contents[0]).split("'")[1].split(',')
+    date = str(datetime.date(int(date_parts[0]),
+                             int(date_parts[1]) + 1,
+                             int(date_parts[2])))
+    champ_name = a[0].text[1:-1]
+    home_command = a[1].text
+    away_command = a[2].text
+    return {'date': date,
+            'championate': champ_name,
+            'home_command': home_command,
+            'away_command': away_command}
+
+
 def get_stat(html):
-    soup = BeautifulSoup(html, 'lxml')
-    HDA_odds, AH_odds, OU_odds = soup.select('div#oddsDetai div')[0:3]
-    HDA_stat = get_data_from_table(HDA_odds.select('tr'), '1x2')
-    AH_stat = get_data_from_table(AH_odds.select('tr'))
-    OU_stat = get_data_from_table(OU_odds.select('tr'))
-    open_close_HDA = select_pre_match_line(HDA_stat, '1x2')
-    open_close_AH = select_pre_match_line(HDA_stat, 'AH')
-    open_close_OU = select_pre_match_line(HDA_stat, 'OU')
-    print(111111111, select_stat_by_minutes(OU_stat))
+    try:
+        soup = BeautifulSoup(html, 'lxml')
+        HDA_odds, AH_odds, OU_odds = soup.select('div#oddsDetai div')[0:3]
+        HDA_stat = get_data_from_table(HDA_odds.select('tr'), '1x2')
+        AH_stat = get_data_from_table(AH_odds.select('tr'))
+        OU_stat = get_data_from_table(OU_odds.select('tr'))
+        app_logger.debug('Received HDA, AH, OU statistics by minutes')
+        summary_stats = {}
+        summary_stats.update(select_pre_match_line(HDA_stat, '1x2'))
+        summary_stats.update(select_pre_match_line(AH_stat, 'AH'))
+        summary_stats.update(select_pre_match_line(OU_stat, 'OU'))
+        app_logger.debug('Added prematch line move')
+        [summary_stats.update(stat)
+         for stat in select_stat_in_HT(HDA_stat, '1x2')]
+        [summary_stats.update(stat)
+         for stat in select_stat_in_HT(AH_stat, 'AH')]
+        [summary_stats.update(stat)
+         for stat in select_stat_in_HT(OU_stat, 'OU')]
+        summary_stats.update(get_match_info(soup))
+        app_logger.info(
+            f'Formed objects with stats cnt keys={len(summary_stats.keys())}')
+    except Exception:
+        app_logger.exception('Error received stats in table data')
+
+    print(111111111, summary_stats)
 
 
-get_stat(get_html('http://data.nowgoal.group/3in1odds/3_861230.html'))
+get_stat(get_html('http://data.nowgoal.group/3in1odds/3_1432807.html'))

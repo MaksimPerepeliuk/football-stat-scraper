@@ -1380,3 +1380,27 @@ Traceback (most recent call last):
 selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
   (Session info: headless chrome=84.0.4147.89)
 
+# INFO     ng_stat_parse.py[LINE:100][2020-07-24 12:06:14,447] Formed objects with stats count keys = 32
+# INFO     ng_stat_parse.py[LINE:117][2020-07-24 13:57:31,489] Formed objects with stats count keys = 36
+# INFO     ng_stat_parse.py[LINE:118][2020-07-24 13:58:45,064] Formed objects with stats count keys = 36
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 13:59:18,169] Formed objects with stats count keys = 36
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 14:00:50,788] Formed objects with stats count keys = 36
+# ERROR    ng_stat_parse.py[LINE:128][2020-07-24 14:08:50,645] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 123, in get_stat
+    detail_url = soup.select('li#menu1 a')['href']
+TypeError: list indices must be integers or slices, not str
+# ERROR    ng_stat_parse.py[LINE:128][2020-07-24 14:09:21,124] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 123, in get_stat
+    detail_url = soup.select('li#menu1 a')['href']
+TypeError: list indices must be integers or slices, not str
+# ERROR    ng_stat_parse.py[LINE:129][2020-07-24 14:09:49,485] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 123, in get_stat
+    detail_url = soup.select('li#menu1 a')['href']
+TypeError: list indices must be integers or slices, not str
+# INFO     ng_stat_parse.py[LINE:126][2020-07-24 14:10:00,339] Formed objects with stats cnt keys=36
+# INFO     ng_stat_parse.py[LINE:126][2020-07-24 14:10:13,096] Formed objects with stats cnt keys=36
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 14:20:42,381] Formed objects with stats cnt keys=30
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 14:24:02,815] Formed objects with stats cnt keys=30

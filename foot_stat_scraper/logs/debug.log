@@ -3227,3 +3227,51 @@ Traceback (most recent call last):
 selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
   (Session info: headless chrome=84.0.4147.89)
 
+# DEBUG    ng_stat_parse.py[LINE:88][2020-07-24 12:06:14,445] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:93][2020-07-24 12:06:14,447] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:100][2020-07-24 12:06:14,447] Formed objects with stats count keys = 32
+# DEBUG    ng_stat_parse.py[LINE:104][2020-07-24 13:57:31,422] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:109][2020-07-24 13:57:31,422] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:117][2020-07-24 13:57:31,489] Formed objects with stats count keys = 36
+# DEBUG    ng_stat_parse.py[LINE:105][2020-07-24 13:58:44,999] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 13:58:44,999] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:118][2020-07-24 13:58:45,064] Formed objects with stats count keys = 36
+# DEBUG    ng_stat_parse.py[LINE:106][2020-07-24 13:59:18,103] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 13:59:18,103] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 13:59:18,169] Formed objects with stats count keys = 36
+# DEBUG    ng_stat_parse.py[LINE:106][2020-07-24 14:00:50,722] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 14:00:50,722] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 14:00:50,788] Formed objects with stats count keys = 36
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 14:08:50,560] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 14:08:50,560] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:128][2020-07-24 14:08:50,645] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 123, in get_stat
+    detail_url = soup.select('li#menu1 a')['href']
+TypeError: list indices must be integers or slices, not str
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 14:09:21,035] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 14:09:21,035] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:128][2020-07-24 14:09:21,124] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 123, in get_stat
+    detail_url = soup.select('li#menu1 a')['href']
+TypeError: list indices must be integers or slices, not str
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 14:09:49,398] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 14:09:49,399] Added prematch line move
+# ERROR    ng_stat_parse.py[LINE:129][2020-07-24 14:09:49,485] Error received stats in table data
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/foot_stat_scraper/ng_stat_parse.py", line 123, in get_stat
+    detail_url = soup.select('li#menu1 a')['href']
+TypeError: list indices must be integers or slices, not str
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 14:10:00,254] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 14:10:00,254] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:126][2020-07-24 14:10:00,339] Formed objects with stats cnt keys=36
+# DEBUG    ng_stat_parse.py[LINE:110][2020-07-24 14:10:13,011] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:115][2020-07-24 14:10:13,011] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:126][2020-07-24 14:10:13,096] Formed objects with stats cnt keys=36
+# DEBUG    ng_stat_parse.py[LINE:106][2020-07-24 14:20:42,241] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 14:20:42,241] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 14:20:42,381] Formed objects with stats cnt keys=30
+# DEBUG    ng_stat_parse.py[LINE:106][2020-07-24 14:24:02,678] Received HDA, AH, OU statistics by minutes
+# DEBUG    ng_stat_parse.py[LINE:111][2020-07-24 14:24:02,678] Added prematch line move
+# INFO     ng_stat_parse.py[LINE:119][2020-07-24 14:24:02,815] Formed objects with stats cnt keys=30
