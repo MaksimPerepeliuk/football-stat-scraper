@@ -4,25 +4,17 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from logs.loggers import app_logger
 from db_manager import insert_into_ng_odds
-
-
-def convert_urls():
-    urls = open('foot_stat_scraper/urls/now_goal_urls.txt').read().split(', ')
-    template = 'http://data.nowgoal.group/3in1odds/{}'
-    new_urls = []
-    for url in urls:
-        tail_url = '3_' + url.split('/')[-1]
-        new_urls.append(template.format(tail_url))
-    unique_new_urls = list(set(new_urls))
-    return unique_new_urls
+from tqdm import tqdm
+from multiprocessing import Pool
+from math import ceil
 
 
 def get_html(url):
     user_agent = UserAgent().chrome
     r = requests.get(url, headers={'User-Agent': user_agent})
     if r.ok:
-        return r.text
         app_logger.debug(f'Received html page {url} code = {r.status_code}')
+        return r.text
     else:
         app_logger.exception(f'Error getting html page {url} {r.status_code}')
     print(r.ok)
@@ -97,7 +89,7 @@ def get_match_info(soup):
             'away_command': away_command}
 
 
-def get_stat(html):
+def insert_stat(html):
     try:
         soup = BeautifulSoup(html, 'lxml')
         HDA_odds, AH_odds, OU_odds = soup.select('div#oddsDetai div')[0:3]
@@ -120,9 +112,44 @@ def get_stat(html):
         app_logger.info(
             f'Formed objects with stats cnt keys={len(summary_stats.keys())}')
     except Exception:
-        app_logger.exception('Error received stats in table data')
-
+        app_logger.exception('\nError received stats from elements page')
     insert_into_ng_odds(summary_stats)
+    app_logger.debug('Record values in table\n')
 
 
-get_stat(get_html('http://data.nowgoal.group/3in1odds/3_1432807.html'))
+def get_convert_urls():
+    urls = open('foot_stat_scraper/urls/now_goal_urls.txt').read().split(', ')
+    template = 'http://data.nowgoal.group/3in1odds/{}'
+    new_urls = []
+    for url in urls:
+        tail_url = '3_' + url.split('/')[-1]
+        new_urls.append(template.format(tail_url))
+    unique_new_urls = list(set(new_urls))
+    return unique_new_urls
+
+
+def main(urls):
+    for url in tqdm(urls):
+        try:
+            insert_stat(get_html(url))
+        except Exception:
+            app_logger.debug('\nError records values in database')
+
+
+def partial(data, parts_count):
+    part_len = ceil((len(data) / parts_count))
+    result = []
+    for i in range(0, len(data), part_len):
+        result.append(data[i:i+part_len])
+    return result
+
+
+def start_parallel_exec(f, args, count):
+    partial_args = partial(args, count)
+    with Pool(count) as p:
+        p.map(f, partial_args)
+
+
+if __name__ == '__main__':
+    urls = get_convert_urls()
+    start_parallel_exec(main, urls, 10)
