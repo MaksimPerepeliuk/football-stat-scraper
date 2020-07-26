@@ -7,7 +7,7 @@ from tqdm import tqdm
 import time
 
 chrome_options = Options()
-# chrome_options.add_argument("--headless")
+chrome_options.add_argument("--headless")
 chrome_options.add_argument("--window-size=1920x1080")
 chromedriver_path = '/home/max/Projects/tmp/chromedriver'
 driver = webdriver.Chrome(options=chrome_options,
