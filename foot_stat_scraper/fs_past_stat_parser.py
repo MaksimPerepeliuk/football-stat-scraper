@@ -3,17 +3,33 @@ from bs4 import BeautifulSoup
 from logs.loggers import app_logger
 
 
-def calculate_stat(stats):
-    app_logger.debug('Start calculating collected past stats')
-    print(stats)
+def calculate_stat(stats): # неправильные значения
+    app_logger.debug('Start CALCULATING collected past stats')
+    slices = [3, 5, 10, 15, 20]
+    sums = {}
+    slice_stats = {}
+    for i, stat in enumerate(stats):
+        if i + 1 in slices:
+            keys = sums.keys()
+            values = sums.values()
+            [slice_stats.update({f'{i+1}_last_{key}': value})
+             for key, value in zip(keys, values)]
+            app_logger.info(f'Make SLICE stats last {i} previous events')
+        keys = stat.keys()
+        for key in keys:
+            if key in sums:
+                sums[key] += int(stat[key])
+            else:
+                sums[key] = int(stat[key])
+    app_logger.debug(f'\n{slice_stats}')
 
 
-def get_detail_stat(stat_rows, command, championate, limit=5):
+def get_detail_stat(stat_rows, command, championate, limit=3):
     app_logger.debug(f'Start calculate stats for {command}')
     summary_stats = []
     for i, stat_row in enumerate(stat_rows):
-        if i == limit:
-            app_logger.debug(f'Processed {i} events, exit from loop')
+        if i > limit:
+            app_logger.info(f'Processed {i} events, exit from loop')
             break
         event_stat = {}
         try:
@@ -35,7 +51,8 @@ def get_detail_stat(stat_rows, command, championate, limit=5):
             event_stat.update(get_half_stat(first_half_url, '1st_half'))
             event_stat.update(get_half_stat(second_half_url, '2nd_half'))
             summary_stats.append(event_stat)
-            app_logger.debug(f'Add event #{i} stat in summary stat')
+            app_logger.debug(
+                f'Add event #{i} with {len(event_stat)} keys stat in summary stat')
         except Exception:
             app_logger.exception(
                 f'\nError received data from stat row {command}')
@@ -46,7 +63,7 @@ def get_past_command_stat(url, command, championate, event_date):
     html = get_html(url)
     soup = BeautifulSoup(html, 'lxml')
     app_logger.debug(
-        f'Start collect past stat data from {url} command {command}')
+        f'Start collect COMMAND stat data from {url} command {command}')
     stat_rows = soup.select('div.event__match')
     for stat_row in stat_rows:
         date = stat_row.select('div.event__time')[0].text.split(' ')
@@ -66,7 +83,7 @@ def get_summary_past_stat(url):
     main_stat = get_main_stat(url)
     html = get_html(url)
     soup = BeautifulSoup(html, 'lxml')
-    app_logger.debug(f'Start collect summary stat data from {url}')
+    app_logger.debug(f'Start collect SUMMARY stat data from {url}')
     template = 'https://www.flashscore.com{}/results/'
     home_command_url = template.format(soup.select(
         'div.team-text.tname-home a.participant-imglink')[0].attrs[
