@@ -1,17 +1,9 @@
 from logs.loggers import app_logger
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from init_driver import get_driver
 from selenium.webdriver.common.keys import Keys
 from db_manager import insert_into_events_urls
 from tqdm import tqdm
 import time
-
-chrome_options = Options()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--window-size=1920x1080")
-chromedriver_path = '/home/max/Projects/tmp/chromedriver'
-driver = webdriver.Chrome(options=chrome_options,
-                          executable_path=chromedriver_path)
 
 
 def normalize_list_urls(urls):
@@ -33,6 +25,7 @@ def write_url_in_file(url):
 def make_file_champ_urls(country_urls, amount_seasons=4):
     for url in tqdm(country_urls):
         archive_url = url + 'archive/'
+        driver = get_driver
         driver.get(archive_url)
         time.sleep(1)
         champs_by_years = driver.find_elements_by_css_selector(
@@ -62,6 +55,7 @@ def make_url_event(events_id):
 
 
 def get_events_urls(champoinate_url):
+    driver = get_driver
     driver.get(champoinate_url)
     app_logger.debug(f'Open page - {champoinate_url}')
     time.sleep(1)
@@ -97,7 +91,6 @@ def main(champ_urls):
             app_logger.info(f'Total number of records = {count_records}\n')
         except Exception:
             app_logger.exception('\nreceive or record error')
-    driver.quit()
 
 
 if __name__ == '__main__':
