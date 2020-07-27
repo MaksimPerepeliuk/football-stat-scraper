@@ -1,24 +1,358 @@
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:05,144] Received html https://www.flashscore.com/match/C2xXOviA
-# DEBUG    fs_live_stat_parser.py[LINE:55][2020-07-26 23:29:05,170] Start collect main stat data from https://www.flashscore.com/match/C2xXOviA
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:07,978] Received html https://www.flashscore.com/match/C2xXOviA
-# DEBUG    fs_past_stat_parser.py[LINE:86][2020-07-26 23:29:08,002] Start collect SUMMARY stat data from https://www.flashscore.com/match/C2xXOviA
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:11,523] Received html https://www.flashscore.com/team/estudiantes-l-p/p2SkCHXs/results/
-# DEBUG    fs_past_stat_parser.py[LINE:65][2020-07-26 23:29:11,578] Start collect COMMAND stat data from https://www.flashscore.com/team/estudiantes-l-p/p2SkCHXs/results/ command Estudiantes L.P.
-# DEBUG    fs_past_stat_parser.py[LINE:28][2020-07-26 23:29:11,592] Start calculate stats for Estudiantes L.P.
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:15,569] Received html https://www.flashscore.com/match/4nMLteG4/#match-statistics;1
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:18,200] Received html https://www.flashscore.com/match/4nMLteG4/#match-statistics;2
-# DEBUG    fs_past_stat_parser.py[LINE:54][2020-07-26 23:29:18,228] Add event #0 with 12 keys stat in summary stat
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:21,366] Received html https://www.flashscore.com/match/KQ4nDshb/#match-statistics;1
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:24,036] Received html https://www.flashscore.com/match/KQ4nDshb/#match-statistics;2
-# DEBUG    fs_past_stat_parser.py[LINE:54][2020-07-26 23:29:24,121] Add event #1 with 60 keys stat in summary stat
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:28,165] Received html https://www.flashscore.com/match/EXgcss8U/#match-statistics;1
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:30,947] Received html https://www.flashscore.com/match/EXgcss8U/#match-statistics;2
-# DEBUG    fs_past_stat_parser.py[LINE:54][2020-07-26 23:29:31,002] Add event #2 with 60 keys stat in summary stat
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:34,876] Received html https://www.flashscore.com/match/ANo6qCX0/#match-statistics;1
-# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-26 23:29:37,510] Received html https://www.flashscore.com/match/ANo6qCX0/#match-statistics;2
-# DEBUG    fs_past_stat_parser.py[LINE:54][2020-07-26 23:29:37,568] Add event #3 with 60 keys stat in summary stat
-# INFO     fs_past_stat_parser.py[LINE:32][2020-07-26 23:29:37,568] Processed 4 events, exit from loop
-# DEBUG    fs_past_stat_parser.py[LINE:7][2020-07-26 23:29:37,568] Start CALCULATING collected past stats
-# INFO     fs_past_stat_parser.py[LINE:17][2020-07-26 23:29:37,569] Make SLICE stats last 2 previous events
-# DEBUG    fs_past_stat_parser.py[LINE:24][2020-07-26 23:29:37,569] 
-{'3_last_goals_scored': 2, '3_last_goals_missed': 3, '3_last_1half_goals_scored': 1, '3_last_1half_goals_missed': 1, '3_last_1st_half_red_cards_home': 0, '3_last_1st_half_red_cards_away': 1, '3_last_1st_half_yellow_cards_home': 1, '3_last_1st_half_yellow_cards_away': 1, '3_last_2nd_half_red_cards_home': 0, '3_last_2nd_half_red_cards_away': 1, '3_last_2nd_half_yellow_cards_home': 1, '3_last_2nd_half_yellow_cards_away': 1, '3_last_1st_half_ball_possession_home': 53, '3_last_1st_half_ball_possession_away': 47, '3_last_1st_half_goal_attempts_home': 7, '3_last_1st_half_goal_attempts_away': 5, '3_last_1st_half_shots_on_goal_home': 3, '3_last_1st_half_shots_on_goal_away': 2, '3_last_1st_half_shots_off_goal_home': 2, '3_last_1st_half_shots_off_goal_away': 2, '3_last_1st_half_blocked_shots_home': 2, '3_last_1st_half_blocked_shots_away': 1, '3_last_1st_half_corner_kicks_home': 5, '3_last_1st_half_corner_kicks_away': 1, '3_last_1st_half_offsides_home': 0, '3_last_1st_half_offsides_away': 2, '3_last_1st_half_goalkeeper_saves_home': 1, '3_last_1st_half_goalkeeper_saves_away': 2, '3_last_1st_half_fouls_home': 7, '3_last_1st_half_fouls_away': 2, '3_last_1st_half_total_passes_home': 234, '3_last_1st_half_total_passes_away': 222, '3_last_1st_half_tackles_home': 20, '3_last_1st_half_tackles_away': 7, '3_last_1st_half_attacks_home': 59, '3_last_1st_half_attacks_away': 45, '3_last_1st_half_dangerous_attacks_home': 40, '3_last_1st_half_dangerous_attacks_away': 31, '3_last_2nd_half_ball_possession_home': 53, '3_last_2nd_half_ball_possession_away': 47, '3_last_2nd_half_goal_attempts_home': 7, '3_last_2nd_half_goal_attempts_away': 5, '3_last_2nd_half_shots_on_goal_home': 3, '3_last_2nd_half_shots_on_goal_away': 2, '3_last_2nd_half_shots_off_goal_home': 2, '3_last_2nd_half_shots_off_goal_away': 2, '3_last_2nd_half_blocked_shots_home': 2, '3_last_2nd_half_blocked_shots_away': 1, '3_last_2nd_half_corner_kicks_home': 5, '3_last_2nd_half_corner_kicks_away': 1, '3_last_2nd_half_offsides_home': 0, '3_last_2nd_half_offsides_away': 2, '3_last_2nd_half_goalkeeper_saves_home': 1, '3_last_2nd_half_goalkeeper_saves_away': 2, '3_last_2nd_half_fouls_home': 7, '3_last_2nd_half_fouls_away': 2, '3_last_2nd_half_total_passes_home': 234, '3_last_2nd_half_total_passes_away': 222, '3_last_2nd_half_tackles_home': 20, '3_last_2nd_half_tackles_away': 7, '3_last_2nd_half_attacks_home': 59, '3_last_2nd_half_attacks_away': 45, '3_last_2nd_half_dangerous_attacks_home': 40, '3_last_2nd_half_dangerous_attacks_away': 31}
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:34,913] Received html https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_live_stat_parser.py[LINE:57][2020-07-27 10:56:34,936] Start collect main stat data from https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:37,486] Received html https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_past_stat_parser.py[LINE:92][2020-07-27 10:56:37,512] Start collect SUMMARY stat data from https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:40,918] Received html https://www.flashscore.com/team/estudiantes-l-p/p2SkCHXs/results/
+# DEBUG    fs_past_stat_parser.py[LINE:69][2020-07-27 10:56:40,965] Start collect COMMAND stat data from https://www.flashscore.com/team/estudiantes-l-p/p2SkCHXs/results/ command Estudiantes L.P.
+# DEBUG    fs_past_stat_parser.py[LINE:81][2020-07-27 10:56:40,979] Element date 1003 == event date 1003
+# DEBUG    fs_past_stat_parser.py[LINE:28][2020-07-27 10:56:40,980] Start received DETAIL stats for Estudiantes L.P.
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 10:56:40,981] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 10:56:40,982] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_KQ4nDshb" title="Click for match detail!"><div class="event__time">02.03. 01:40</div><div class="event__participant event__participant--home">Lanus</div><div class="event__scores fontBold"><span>1</span> - <span>1</span></div><div class="event__participant event__participant--away">Estudiantes L.P.</div><div class="event__part">(0 - 0)</div><span class="wld wld--d">D</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 10:56:40,982] DETAIL STAT Lanus [<span>1</span>, <span>1</span>] Estudiantes L.P.
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:44,260] Received html https://www.flashscore.com/match/KQ4nDshb/#match-statistics;1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,301] Received half stat ball_possession 54 46
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,302] Received half stat goal_attempts 14 15
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,303] Received half stat shots_on_goal 5 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,303] Received half stat shots_off_goal 5 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,304] Received half stat blocked_shots 4 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,304] Received half stat corner_kicks 7 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,305] Received half stat offsides 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,306] Received half stat goalkeeper_saves 2 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,306] Received half stat fouls 13 9
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,307] Received half stat yellow_cards 2 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,307] Received half stat total_passes 523 458
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,308] Received half stat tackles 29 20
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,308] Received half stat attacks 125 95
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,309] Received half stat dangerous_attacks 80 61
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,309] Received half stat ball_possession 55 45
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,310] Received half stat goal_attempts 7 10
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,311] Received half stat shots_on_goal 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,311] Received half stat shots_off_goal 3 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,312] Received half stat blocked_shots 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,312] Received half stat corner_kicks 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,313] Received half stat offsides 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,313] Received half stat goalkeeper_saves 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,314] Received half stat fouls 6 7
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,314] Received half stat yellow_cards 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,315] Received half stat total_passes 289 236
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,315] Received half stat tackles 9 13
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,316] Received half stat attacks 66 50
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,317] Received half stat dangerous_attacks 40 30
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,317] Received half stat ball_possession 53 47
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,318] Received half stat goal_attempts 7 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,318] Received half stat shots_on_goal 3 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,319] Received half stat shots_off_goal 2 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,319] Received half stat blocked_shots 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,320] Received half stat corner_kicks 5 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,320] Received half stat offsides 0 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,321] Received half stat goalkeeper_saves 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,322] Received half stat fouls 7 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,322] Received half stat yellow_cards 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,323] Received half stat total_passes 234 222
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,323] Received half stat tackles 20 7
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,324] Received half stat attacks 59 45
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:44,324] Received half stat dangerous_attacks 40 31
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:46,855] Received html https://www.flashscore.com/match/KQ4nDshb/#match-statistics;2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,887] Received half stat ball_possession 54 46
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,888] Received half stat goal_attempts 14 15
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,888] Received half stat shots_on_goal 5 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,889] Received half stat shots_off_goal 5 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,889] Received half stat blocked_shots 4 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,890] Received half stat corner_kicks 7 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,891] Received half stat offsides 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,891] Received half stat goalkeeper_saves 2 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,892] Received half stat fouls 13 9
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,892] Received half stat yellow_cards 2 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,893] Received half stat total_passes 523 458
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,893] Received half stat tackles 29 20
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,894] Received half stat attacks 125 95
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,894] Received half stat dangerous_attacks 80 61
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,895] Received half stat ball_possession 55 45
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,895] Received half stat goal_attempts 7 10
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,896] Received half stat shots_on_goal 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,896] Received half stat shots_off_goal 3 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,897] Received half stat blocked_shots 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,897] Received half stat corner_kicks 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,898] Received half stat offsides 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,899] Received half stat goalkeeper_saves 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,899] Received half stat fouls 6 7
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,900] Received half stat yellow_cards 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,900] Received half stat total_passes 289 236
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,901] Received half stat tackles 9 13
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,901] Received half stat attacks 66 50
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,902] Received half stat dangerous_attacks 40 30
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,902] Received half stat ball_possession 53 47
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,903] Received half stat goal_attempts 7 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,904] Received half stat shots_on_goal 3 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,904] Received half stat shots_off_goal 2 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,905] Received half stat blocked_shots 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,905] Received half stat corner_kicks 5 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,906] Received half stat offsides 0 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,906] Received half stat goalkeeper_saves 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,907] Received half stat fouls 7 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,907] Received half stat yellow_cards 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,908] Received half stat total_passes 234 222
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,909] Received half stat tackles 20 7
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,909] Received half stat attacks 59 45
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:46,910] Received half stat dangerous_attacks 40 31
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 10:56:46,910] Add event #1 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 10:56:46,910] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 10:56:46,911] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_EXgcss8U" title="Click for match detail!"><div class="event__time">24.02. 03:45</div><div class="event__participant event__participant--home">Estudiantes L.P.</div><div class="event__scores fontBold"><span>0</span> - <span>2</span></div><div class="event__participant event__participant--away fontBold">River Plate</div><div class="event__part">(0 - 1)</div><span class="wld wld--l">L</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 10:56:46,911] DETAIL STAT Estudiantes L.P. [<span>0</span>, <span>2</span>] River Plate
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:50,328] Received html https://www.flashscore.com/match/EXgcss8U/#match-statistics;1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,369] Received half stat ball_possession 45 55
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,370] Received half stat goal_attempts 12 9
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,370] Received half stat shots_on_goal 1 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,371] Received half stat shots_off_goal 7 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,371] Received half stat blocked_shots 4 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,372] Received half stat corner_kicks 4 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,372] Received half stat offsides 1 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,373] Received half stat goalkeeper_saves 3 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,373] Received half stat fouls 18 13
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,374] Received half stat yellow_cards 4 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,374] Received half stat total_passes 366 465
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,375] Received half stat tackles 17 21
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,375] Received half stat attacks 120 115
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,376] Received half stat dangerous_attacks 83 72
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,376] Received half stat ball_possession 46 54
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,377] Received half stat goal_attempts 6 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,377] Received half stat shots_on_goal 0 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,378] Received half stat shots_off_goal 4 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,378] Received half stat blocked_shots 2 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,379] Received half stat corner_kicks 3 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,379] Received half stat offsides 1 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,380] Received half stat goalkeeper_saves 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,380] Received half stat fouls 5 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,381] Received half stat yellow_cards 0 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,381] Received half stat total_passes 182 217
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,382] Received half stat tackles 6 11
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,382] Received half stat attacks 57 51
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,383] Received half stat dangerous_attacks 43 33
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,383] Received half stat ball_possession 44 56
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,384] Received half stat goal_attempts 6 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,384] Received half stat shots_on_goal 1 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,385] Received half stat shots_off_goal 3 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,385] Received half stat blocked_shots 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,386] Received half stat corner_kicks 1 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,386] Received half stat offsides 0 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,387] Received half stat goalkeeper_saves 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,387] Received half stat fouls 13 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,388] Received half stat yellow_cards 4 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,388] Received half stat total_passes 184 248
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,389] Received half stat tackles 11 10
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,389] Received half stat attacks 63 64
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:50,390] Received half stat dangerous_attacks 40 39
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:52,794] Received html https://www.flashscore.com/match/EXgcss8U/#match-statistics;2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,838] Received half stat ball_possession 45 55
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,839] Received half stat goal_attempts 12 9
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,839] Received half stat shots_on_goal 1 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,840] Received half stat shots_off_goal 7 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,840] Received half stat blocked_shots 4 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,841] Received half stat corner_kicks 4 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,842] Received half stat offsides 1 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,842] Received half stat goalkeeper_saves 3 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,843] Received half stat fouls 18 13
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,843] Received half stat yellow_cards 4 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,844] Received half stat total_passes 366 465
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,844] Received half stat tackles 17 21
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,845] Received half stat attacks 120 115
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,845] Received half stat dangerous_attacks 83 72
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,846] Received half stat ball_possession 46 54
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,846] Received half stat goal_attempts 6 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,847] Received half stat shots_on_goal 0 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,847] Received half stat shots_off_goal 4 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,848] Received half stat blocked_shots 2 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,848] Received half stat corner_kicks 3 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,849] Received half stat offsides 1 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,849] Received half stat goalkeeper_saves 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,850] Received half stat fouls 5 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,850] Received half stat yellow_cards 0 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,851] Received half stat total_passes 182 217
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,851] Received half stat tackles 6 11
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,852] Received half stat attacks 57 51
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,852] Received half stat dangerous_attacks 43 33
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,853] Received half stat ball_possession 44 56
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,853] Received half stat goal_attempts 6 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,854] Received half stat shots_on_goal 1 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,854] Received half stat shots_off_goal 3 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,855] Received half stat blocked_shots 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,855] Received half stat corner_kicks 1 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,856] Received half stat offsides 0 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,856] Received half stat goalkeeper_saves 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,857] Received half stat fouls 13 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,857] Received half stat yellow_cards 4 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,858] Received half stat total_passes 184 248
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,858] Received half stat tackles 11 10
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,859] Received half stat attacks 63 64
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:52,859] Received half stat dangerous_attacks 40 39
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 10:56:52,859] Add event #2 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 10:56:52,860] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 10:56:52,860] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_ANo6qCX0" title="Click for match detail!"><div class="event__time">18.02. 01:00</div><div class="event__participant event__participant--home">Estudiantes L.P.</div><div class="event__scores fontBold"><span>1</span> - <span>2</span></div><div class="event__participant event__participant--away fontBold">Defensa y Justicia</div><div class="event__part">(0 - 1)</div><span class="wld wld--l">L</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 10:56:52,860] DETAIL STAT Estudiantes L.P. [<span>1</span>, <span>2</span>] Defensa y Justicia
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:55,347] Received html https://www.flashscore.com/match/ANo6qCX0/#match-statistics;1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,376] Received half stat ball_possession 58 42
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,376] Received half stat goal_attempts 10 11
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,377] Received half stat shots_on_goal 3 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,378] Received half stat shots_off_goal 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,378] Received half stat blocked_shots 5 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,379] Received half stat corner_kicks 8 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,379] Received half stat offsides 2 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,380] Received half stat goalkeeper_saves 6 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,380] Received half stat fouls 19 18
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,381] Received half stat yellow_cards 3 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,381] Received half stat total_passes 405 309
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,382] Received half stat tackles 21 28
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,382] Received half stat attacks 141 110
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,383] Received half stat dangerous_attacks 85 66
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,383] Received half stat ball_possession 49 51
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,384] Received half stat goal_attempts 5 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,384] Received half stat shots_on_goal 2 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,385] Received half stat shots_off_goal 2 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,385] Received half stat blocked_shots 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,386] Received half stat corner_kicks 5 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,386] Received half stat offsides 0 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,387] Received half stat goalkeeper_saves 4 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,388] Received half stat fouls 13 7
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,388] Received half stat yellow_cards 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,389] Received half stat total_passes 157 163
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,389] Received half stat tackles 11 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,390] Received half stat attacks 56 59
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,390] Received half stat dangerous_attacks 28 39
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,391] Received half stat ball_possession 67 33
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,391] Received half stat goal_attempts 5 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,392] Received half stat shots_on_goal 1 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,392] Received half stat shots_off_goal 0 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,393] Received half stat blocked_shots 4 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,394] Received half stat corner_kicks 3 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,394] Received half stat offsides 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,395] Received half stat goalkeeper_saves 2 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,395] Received half stat fouls 6 11
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,396] Received half stat yellow_cards 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,396] Received half stat total_passes 248 146
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,397] Received half stat tackles 10 20
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,397] Received half stat attacks 85 51
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:55,398] Received half stat dangerous_attacks 57 27
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 10:56:57,848] Received html https://www.flashscore.com/match/ANo6qCX0/#match-statistics;2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,879] Received half stat ball_possession 58 42
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,880] Received half stat goal_attempts 10 11
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,880] Received half stat shots_on_goal 3 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,881] Received half stat shots_off_goal 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,881] Received half stat blocked_shots 5 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,882] Received half stat corner_kicks 8 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,882] Received half stat offsides 2 4
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,883] Received half stat goalkeeper_saves 6 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,883] Received half stat fouls 19 18
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,884] Received half stat yellow_cards 3 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,884] Received half stat total_passes 405 309
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,885] Received half stat tackles 21 28
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,886] Received half stat attacks 141 110
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,886] Received half stat dangerous_attacks 85 66
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,887] Received half stat ball_possession 49 51
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,887] Received half stat goal_attempts 5 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,888] Received half stat shots_on_goal 2 5
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,888] Received half stat shots_off_goal 2 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,889] Received half stat blocked_shots 1 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,889] Received half stat corner_kicks 5 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,890] Received half stat offsides 0 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,890] Received half stat goalkeeper_saves 4 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,891] Received half stat fouls 13 7
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,891] Received half stat yellow_cards 2 1
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,892] Received half stat total_passes 157 163
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,892] Received half stat tackles 11 8
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,893] Received half stat attacks 56 59
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,894] Received half stat dangerous_attacks 28 39
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,894] Received half stat ball_possession 67 33
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,895] Received half stat goal_attempts 5 6
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,895] Received half stat shots_on_goal 1 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,896] Received half stat shots_off_goal 0 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,896] Received half stat blocked_shots 4 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,897] Received half stat corner_kicks 3 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,897] Received half stat offsides 2 3
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,898] Received half stat goalkeeper_saves 2 0
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,898] Received half stat fouls 6 11
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,899] Received half stat yellow_cards 1 2
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,899] Received half stat total_passes 248 146
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,900] Received half stat tackles 10 20
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,900] Received half stat attacks 85 51
+# INFO     fs_live_stat_parser.py[LINE:47][2020-07-27 10:56:57,901] Received half stat dangerous_attacks 57 27
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 10:56:57,901] Add event #3 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:32][2020-07-27 10:56:57,901] Processed 3 events, exit from loop
+# DEBUG    fs_past_stat_parser.py[LINE:7][2020-07-27 10:56:57,901] Start CALCULATING collected past stats
+# INFO     fs_past_stat_parser.py[LINE:23][2020-07-27 10:56:57,901] Make SLICE stats last 3 previous events
+# DEBUG    fs_past_stat_parser.py[LINE:24][2020-07-27 10:56:57,901] 
+{'3_last_goals_scored': 2, '3_last_goals_missed': 5, '3_last_1half_goals_scored': 0, '3_last_1half_goals_missed': 2, '3_last_1st_half_ball_possession_home': 164, '3_last_1st_half_ball_possession_away': 136, '3_last_1st_half_goal_attempts_home': 18, '3_last_1st_half_goal_attempts_away': 16, '3_last_1st_half_shots_on_goal_home': 5, '3_last_1st_half_shots_on_goal_away': 8, '3_last_1st_half_shots_off_goal_home': 5, '3_last_1st_half_shots_off_goal_away': 6, '3_last_1st_half_blocked_shots_home': 8, '3_last_1st_half_blocked_shots_away': 2, '3_last_1st_half_corner_kicks_home': 9, '3_last_1st_half_corner_kicks_away': 2, '3_last_1st_half_offsides_home': 2, '3_last_1st_half_offsides_away': 5, '3_last_1st_half_goalkeeper_saves_home': 5, '3_last_1st_half_goalkeeper_saves_away': 3, '3_last_1st_half_fouls_home': 26, '3_last_1st_half_fouls_away': 21, '3_last_1st_half_yellow_cards_home': 6, '3_last_1st_half_yellow_cards_away': 2, '3_last_1st_half_total_passes_home': 666, '3_last_1st_half_total_passes_away': 616, '3_last_1st_half_tackles_home': 41, '3_last_1st_half_tackles_away': 37, '3_last_1st_half_attacks_home': 207, '3_last_1st_half_attacks_away': 160, '3_last_1st_half_dangerous_attacks_home': 137, '3_last_1st_half_dangerous_attacks_away': 97, '3_last_2nd_half_ball_possession_home': 164, '3_last_2nd_half_ball_possession_away': 136, '3_last_2nd_half_goal_attempts_home': 18, '3_last_2nd_half_goal_attempts_away': 16, '3_last_2nd_half_shots_on_goal_home': 5, '3_last_2nd_half_shots_on_goal_away': 8, '3_last_2nd_half_shots_off_goal_home': 5, '3_last_2nd_half_shots_off_goal_away': 6, '3_last_2nd_half_blocked_shots_home': 8, '3_last_2nd_half_blocked_shots_away': 2, '3_last_2nd_half_corner_kicks_home': 9, '3_last_2nd_half_corner_kicks_away': 2, '3_last_2nd_half_offsides_home': 2, '3_last_2nd_half_offsides_away': 5, '3_last_2nd_half_goalkeeper_saves_home': 5, '3_last_2nd_half_goalkeeper_saves_away': 3, '3_last_2nd_half_fouls_home': 26, '3_last_2nd_half_fouls_away': 21, '3_last_2nd_half_yellow_cards_home': 6, '3_last_2nd_half_yellow_cards_away': 2, '3_last_2nd_half_total_passes_home': 666, '3_last_2nd_half_total_passes_away': 616, '3_last_2nd_half_tackles_home': 41, '3_last_2nd_half_tackles_away': 37, '3_last_2nd_half_attacks_home': 207, '3_last_2nd_half_attacks_away': 160, '3_last_2nd_half_dangerous_attacks_home': 137, '3_last_2nd_half_dangerous_attacks_away': 97}
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:03:45,921] Received html https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_live_stat_parser.py[LINE:55][2020-07-27 11:03:45,945] Start collect main stat data from https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:03:48,357] Received html https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_past_stat_parser.py[LINE:92][2020-07-27 11:03:48,377] Start collect SUMMARY stat data from https://www.flashscore.com/match/C2xXOviA
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:03:53,113] Received html https://www.flashscore.com/team/estudiantes-l-p/p2SkCHXs/results/
+# DEBUG    fs_past_stat_parser.py[LINE:69][2020-07-27 11:03:53,163] Start collect COMMAND stat data from https://www.flashscore.com/team/estudiantes-l-p/p2SkCHXs/results/ command Estudiantes L.P.
+# DEBUG    fs_past_stat_parser.py[LINE:81][2020-07-27 11:03:53,177] Element date 1003 == event date 1003
+# DEBUG    fs_past_stat_parser.py[LINE:28][2020-07-27 11:03:53,178] Start received DETAIL stats for Estudiantes L.P.
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:03:53,179] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:03:53,180] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_KQ4nDshb" title="Click for match detail!"><div class="event__time">02.03. 01:40</div><div class="event__participant event__participant--home">Lanus</div><div class="event__scores fontBold"><span>1</span> - <span>1</span></div><div class="event__participant event__participant--away">Estudiantes L.P.</div><div class="event__part">(0 - 0)</div><span class="wld wld--d">D</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:03:53,180] DETAIL STAT Lanus [<span>1</span>, <span>1</span>] Estudiantes L.P.
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:03:55,921] Received html https://www.flashscore.com/match/KQ4nDshb/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:03:58,670] Received html https://www.flashscore.com/match/KQ4nDshb/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:03:58,728] Add event #1 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:03:58,728] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:03:58,729] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_EXgcss8U" title="Click for match detail!"><div class="event__time">24.02. 03:45</div><div class="event__participant event__participant--home">Estudiantes L.P.</div><div class="event__scores fontBold"><span>0</span> - <span>2</span></div><div class="event__participant event__participant--away fontBold">River Plate</div><div class="event__part">(0 - 1)</div><span class="wld wld--l">L</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:03:58,729] DETAIL STAT Estudiantes L.P. [<span>0</span>, <span>2</span>] River Plate
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:01,364] Received html https://www.flashscore.com/match/EXgcss8U/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:04,059] Received html https://www.flashscore.com/match/EXgcss8U/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:04,131] Add event #2 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:04,131] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:04,132] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_ANo6qCX0" title="Click for match detail!"><div class="event__time">18.02. 01:00</div><div class="event__participant event__participant--home">Estudiantes L.P.</div><div class="event__scores fontBold"><span>1</span> - <span>2</span></div><div class="event__participant event__participant--away fontBold">Defensa y Justicia</div><div class="event__part">(0 - 1)</div><span class="wld wld--l">L</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:04,132] DETAIL STAT Estudiantes L.P. [<span>1</span>, <span>2</span>] Defensa y Justicia
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:07,248] Received html https://www.flashscore.com/match/ANo6qCX0/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:09,963] Received html https://www.flashscore.com/match/ANo6qCX0/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:10,018] Add event #3 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:10,019] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:10,019] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_hI9Fgde8" title="Click for match detail!"><div class="event__time">09.02. 01:40</div><div class="event__participant event__participant--home">Newells Old Boys</div><div class="event__scores fontBold"><span>0</span> - <span>0</span></div><div class="event__participant event__participant--away">Estudiantes L.P.</div><div class="event__part">(0 - 0)</div><span class="wld wld--d">D</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:10,019] DETAIL STAT Newells Old Boys [<span>0</span>, <span>0</span>] Estudiantes L.P.
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:13,756] Received html https://www.flashscore.com/match/hI9Fgde8/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:16,442] Received html https://www.flashscore.com/match/hI9Fgde8/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:16,496] Add event #4 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:16,497] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:16,497] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_beO6QcRL" title="Click for match detail!"><div class="event__time">02.02. 01:40</div><div class="event__participant event__participant--home fontBold">Estudiantes L.P.</div><div class="event__scores fontBold"><span>3</span> - <span>1</span></div><div class="event__participant event__participant--away">Union de Santa Fe<div class="icon icon--redCard redCard--first redCard--last"></div></div><div class="event__part">(1 - 0)</div><span class="wld wld--w">W</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:16,497] DETAIL STAT Estudiantes L.P. [<span>3</span>, <span>1</span>] Union de Santa Fe
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:20,542] Received html https://www.flashscore.com/match/beO6QcRL/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:23,337] Received html https://www.flashscore.com/match/beO6QcRL/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:23,394] Add event #5 with 64 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:23,395] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:23,395] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_rgqUgajp" title="Click for match detail!"><div class="event__time">26.01. 01:40</div><div class="event__participant event__participant--home">San Lorenzo</div><div class="event__scores fontBold"><span>1</span> - <span>1</span></div><div class="event__participant event__participant--away">Estudiantes L.P.</div><div class="event__part">(0 - 0)</div><span class="wld wld--d">D</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:23,395] DETAIL STAT San Lorenzo [<span>1</span>, <span>1</span>] Estudiantes L.P.
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:27,369] Received html https://www.flashscore.com/match/rgqUgajp/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:30,239] Received html https://www.flashscore.com/match/rgqUgajp/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:30,293] Add event #6 with 60 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:30,294] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:30,294] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_YiPKEuBC" title="Click for match detail!"><div class="event__time">10.12.2019</div><div class="event__participant event__participant--home">Argentinos Jrs</div><div class="event__scores fontBold"><span>1</span> - <span>1</span></div><div class="event__participant event__participant--away">Estudiantes L.P.</div><div class="event__part">(1 - 0)</div><span class="wld wld--d">D</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:30,294] DETAIL STAT Argentinos Jrs [<span>1</span>, <span>1</span>] Estudiantes L.P.
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:33,918] Received html https://www.flashscore.com/match/YiPKEuBC/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:36,552] Received html https://www.flashscore.com/match/YiPKEuBC/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:36,611] Add event #7 with 64 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:36,612] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:36,612] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_EyUp22R6" title="Click for match detail!"><div class="event__time">30.11.2019</div><div class="event__participant event__participant--home">Estudiantes L.P.</div><div class="event__scores fontBold"><span>1</span> - <span>1</span></div><div class="event__participant event__participant--away">Atl. Tucuman</div><div class="event__part">(0 - 0)</div><span class="wld wld--d">D</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:36,612] DETAIL STAT Estudiantes L.P. [<span>1</span>, <span>1</span>] Atl. Tucuman
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:41,680] Received html https://www.flashscore.com/match/EyUp22R6/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:44,375] Received html https://www.flashscore.com/match/EyUp22R6/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:44,471] Add event #8 with 64 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:44,472] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:44,472] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_YH8Bm3CD" title="Click for match detail!"><div class="event__time">26.11.2019</div><div class="event__participant event__participant--home fontBold">Colon Santa FE</div><div class="event__scores fontBold"><span>3</span> - <span>2</span></div><div class="event__participant event__participant--away">Estudiantes L.P.<div class="icon icon--redCard redCard--first redCard--last"></div></div><div class="event__part">(1 - 2)</div><span class="wld wld--l">L</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:44,473] DETAIL STAT Colon Santa FE [<span>3</span>, <span>2</span>] Estudiantes L.P.
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:48,960] Received html https://www.flashscore.com/match/YH8Bm3CD/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:51,619] Received html https://www.flashscore.com/match/YH8Bm3CD/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:51,676] Add event #9 with 68 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:51][2020-07-27 11:04:51,677] --------------------------------------------------------------------
+# INFO     fs_past_stat_parser.py[LINE:52][2020-07-27 11:04:51,677] STAT ROW <div class="event__match event__match--static event__match--oneLine" id="g_1_O6LucGqA" title="Click for match detail!"><div class="event__time">09.11.2019</div><div class="event__participant event__participant--home fontBold">Estudiantes L.P.</div><div class="event__scores fontBold"><span>1</span> - <span>0</span></div><div class="event__participant event__participant--away">Talleres Cordoba<div class="icon icon--redCard redCard--first redCard--last"></div></div><div class="event__part">(1 - 0)</div><span class="wld wld--w">W</span></div>
+# INFO     fs_past_stat_parser.py[LINE:53][2020-07-27 11:04:51,678] DETAIL STAT Estudiantes L.P. [<span>1</span>, <span>0</span>] Talleres Cordoba
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:56,855] Received html https://www.flashscore.com/match/O6LucGqA/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-27 11:04:59,325] Received html https://www.flashscore.com/match/O6LucGqA/#match-statistics;2
+# DEBUG    fs_past_stat_parser.py[LINE:58][2020-07-27 11:04:59,374] Add event #10 with 68 keys stat in summary stat
+# INFO     fs_past_stat_parser.py[LINE:32][2020-07-27 11:04:59,374] Processed 10 events, exit from loop
+# DEBUG    fs_past_stat_parser.py[LINE:7][2020-07-27 11:04:59,374] Start CALCULATING collected past stats
+# INFO     fs_past_stat_parser.py[LINE:23][2020-07-27 11:04:59,374] Make SLICE stats last 3 previous events
+# INFO     fs_past_stat_parser.py[LINE:23][2020-07-27 11:04:59,375] Make SLICE stats last 5 previous events
+# INFO     fs_past_stat_parser.py[LINE:23][2020-07-27 11:04:59,375] Make SLICE stats last 10 previous events
+# DEBUG    fs_past_stat_parser.py[LINE:24][2020-07-27 11:04:59,375] 
+{'3_last_goals_scored': 2, '3_last_goals_missed': 5, '3_last_1half_goals_scored': 0, '3_last_1half_goals_missed': 2, '3_last_1st_half_ball_possession_home': 164, '3_last_1st_half_ball_possession_away': 136, '3_last_1st_half_goal_attempts_home': 18, '3_last_1st_half_goal_attempts_away': 16, '3_last_1st_half_shots_on_goal_home': 5, '3_last_1st_half_shots_on_goal_away': 8, '3_last_1st_half_shots_off_goal_home': 5, '3_last_1st_half_shots_off_goal_away': 6, '3_last_1st_half_blocked_shots_home': 8, '3_last_1st_half_blocked_shots_away': 2, '3_last_1st_half_corner_kicks_home': 9, '3_last_1st_half_corner_kicks_away': 2, '3_last_1st_half_offsides_home': 2, '3_last_1st_half_offsides_away': 5, '3_last_1st_half_goalkeeper_saves_home': 5, '3_last_1st_half_goalkeeper_saves_away': 3, '3_last_1st_half_fouls_home': 26, '3_last_1st_half_fouls_away': 21, '3_last_1st_half_yellow_cards_home': 6, '3_last_1st_half_yellow_cards_away': 2, '3_last_1st_half_total_passes_home': 666, '3_last_1st_half_total_passes_away': 616, '3_last_1st_half_tackles_home': 41, '3_last_1st_half_tackles_away': 37, '3_last_1st_half_attacks_home': 207, '3_last_1st_half_attacks_away': 160, '3_last_1st_half_dangerous_attacks_home': 137, '3_last_1st_half_dangerous_attacks_away': 97, '3_last_2nd_half_ball_possession_home': 164, '3_last_2nd_half_ball_possession_away': 136, '3_last_2nd_half_goal_attempts_home': 18, '3_last_2nd_half_goal_attempts_away': 16, '3_last_2nd_half_shots_on_goal_home': 5, '3_last_2nd_half_shots_on_goal_away': 8, '3_last_2nd_half_shots_off_goal_home': 5, '3_last_2nd_half_shots_off_goal_away': 6, '3_last_2nd_half_blocked_shots_home': 8, '3_last_2nd_half_blocked_shots_away': 2, '3_last_2nd_half_corner_kicks_home': 9, '3_last_2nd_half_corner_kicks_away': 2, '3_last_2nd_half_offsides_home': 2, '3_last_2nd_half_offsides_away': 5, '3_last_2nd_half_goalkeeper_saves_home': 5, '3_last_2nd_half_goalkeeper_saves_away': 3, '3_last_2nd_half_fouls_home': 26, '3_last_2nd_half_fouls_away': 21, '3_last_2nd_half_yellow_cards_home': 6, '3_last_2nd_half_yellow_cards_away': 2, '3_last_2nd_half_total_passes_home': 666, '3_last_2nd_half_total_passes_away': 616, '3_last_2nd_half_tackles_home': 41, '3_last_2nd_half_tackles_away': 37, '3_last_2nd_half_attacks_home': 207, '3_last_2nd_half_attacks_away': 160, '3_last_2nd_half_dangerous_attacks_home': 137, '3_last_2nd_half_dangerous_attacks_away': 97, '5_last_goals_scored': 5, '5_last_goals_missed': 6, '5_last_1half_goals_scored': 1, '5_last_1half_goals_missed': 2, '5_last_1st_half_ball_possession_home': 271, '5_last_1st_half_ball_possession_away': 229, '5_last_1st_half_goal_attempts_home': 25, '5_last_1st_half_goal_attempts_away': 20, '5_last_1st_half_shots_on_goal_home': 9, '5_last_1st_half_shots_on_goal_away': 9, '5_last_1st_half_shots_off_goal_home': 8, '5_last_1st_half_shots_off_goal_away': 8, '5_last_1st_half_blocked_shots_home': 8, '5_last_1st_half_blocked_shots_away': 3, '5_last_1st_half_corner_kicks_home': 11, '5_last_1st_half_corner_kicks_away': 2, '5_last_1st_half_offsides_home': 3, '5_last_1st_half_offsides_away': 6, '5_last_1st_half_goalkeeper_saves_home': 5, '5_last_1st_half_goalkeeper_saves_away': 5, '5_last_1st_half_fouls_home': 37, '5_last_1st_half_fouls_away': 39, '5_last_1st_half_yellow_cards_home': 8, '5_last_1st_half_yellow_cards_away': 7, '5_last_1st_half_total_passes_home': 1110, '5_last_1st_half_total_passes_away': 1015, '5_last_1st_half_tackles_home': 61, '5_last_1st_half_tackles_away': 47, '5_last_1st_half_attacks_home': 304, '5_last_1st_half_attacks_away': 262, '5_last_1st_half_dangerous_attacks_home': 203, '5_last_1st_half_dangerous_attacks_away': 149, '5_last_2nd_half_ball_possession_home': 271, '5_last_2nd_half_ball_possession_away': 229, '5_last_2nd_half_goal_attempts_home': 25, '5_last_2nd_half_goal_attempts_away': 20, '5_last_2nd_half_shots_on_goal_home': 9, '5_last_2nd_half_shots_on_goal_away': 9, '5_last_2nd_half_shots_off_goal_home': 8, '5_last_2nd_half_shots_off_goal_away': 8, '5_last_2nd_half_blocked_shots_home': 8, '5_last_2nd_half_blocked_shots_away': 3, '5_last_2nd_half_corner_kicks_home': 11, '5_last_2nd_half_corner_kicks_away': 2, '5_last_2nd_half_offsides_home': 3, '5_last_2nd_half_offsides_away': 6, '5_last_2nd_half_goalkeeper_saves_home': 5, '5_last_2nd_half_goalkeeper_saves_away': 5, '5_last_2nd_half_fouls_home': 37, '5_last_2nd_half_fouls_away': 39, '5_last_2nd_half_yellow_cards_home': 8, '5_last_2nd_half_yellow_cards_away': 7, '5_last_2nd_half_total_passes_home': 1110, '5_last_2nd_half_total_passes_away': 1015, '5_last_2nd_half_tackles_home': 61, '5_last_2nd_half_tackles_away': 47, '5_last_2nd_half_attacks_home': 304, '5_last_2nd_half_attacks_away': 262, '5_last_2nd_half_dangerous_attacks_home': 203, '5_last_2nd_half_dangerous_attacks_away': 149, '5_last_1st_half_red_cards_home': 0, '5_last_1st_half_red_cards_away': 1, '5_last_2nd_half_red_cards_home': 0, '5_last_2nd_half_red_cards_away': 1, '10_last_goals_scored': 11, '10_last_goals_missed': 12, '10_last_1half_goals_scored': 4, '10_last_1half_goals_missed': 4, '10_last_1st_half_ball_possession_home': 488, '10_last_1st_half_ball_possession_away': 512, '10_last_1st_half_goal_attempts_home': 49, '10_last_1st_half_goal_attempts_away': 48, '10_last_1st_half_shots_on_goal_home': 19, '10_last_1st_half_shots_on_goal_away': 16, '10_last_1st_half_shots_off_goal_home': 16, '10_last_1st_half_shots_off_goal_away': 21, '10_last_1st_half_blocked_shots_home': 14, '10_last_1st_half_blocked_shots_away': 11, '10_last_1st_half_corner_kicks_home': 21, '10_last_1st_half_corner_kicks_away': 11, '10_last_1st_half_offsides_home': 7, '10_last_1st_half_offsides_away': 15, '10_last_1st_half_goalkeeper_saves_home': 9, '10_last_1st_half_goalkeeper_saves_away': 11, '10_last_1st_half_fouls_home': 81, '10_last_1st_half_fouls_away': 75, '10_last_1st_half_yellow_cards_home': 24, '10_last_1st_half_yellow_cards_away': 18, '10_last_1st_half_total_passes_home': 2028, '10_last_1st_half_total_passes_away': 2224, '10_last_1st_half_tackles_home': 123, '10_last_1st_half_tackles_away': 92, '10_last_1st_half_attacks_home': 548, '10_last_1st_half_attacks_away': 531, '10_last_1st_half_dangerous_attacks_home': 332, '10_last_1st_half_dangerous_attacks_away': 314, '10_last_2nd_half_ball_possession_home': 488, '10_last_2nd_half_ball_possession_away': 512, '10_last_2nd_half_goal_attempts_home': 49, '10_last_2nd_half_goal_attempts_away': 48, '10_last_2nd_half_shots_on_goal_home': 19, '10_last_2nd_half_shots_on_goal_away': 16, '10_last_2nd_half_shots_off_goal_home': 16, '10_last_2nd_half_shots_off_goal_away': 21, '10_last_2nd_half_blocked_shots_home': 14, '10_last_2nd_half_blocked_shots_away': 11, '10_last_2nd_half_corner_kicks_home': 21, '10_last_2nd_half_corner_kicks_away': 11, '10_last_2nd_half_offsides_home': 7, '10_last_2nd_half_offsides_away': 15, '10_last_2nd_half_goalkeeper_saves_home': 9, '10_last_2nd_half_goalkeeper_saves_away': 11, '10_last_2nd_half_fouls_home': 81, '10_last_2nd_half_fouls_away': 75, '10_last_2nd_half_yellow_cards_home': 24, '10_last_2nd_half_yellow_cards_away': 18, '10_last_2nd_half_total_passes_home': 2028, '10_last_2nd_half_total_passes_away': 2224, '10_last_2nd_half_tackles_home': 123, '10_last_2nd_half_tackles_away': 92, '10_last_2nd_half_attacks_home': 548, '10_last_2nd_half_attacks_away': 531, '10_last_2nd_half_dangerous_attacks_home': 332, '10_last_2nd_half_dangerous_attacks_away': 314, '10_last_1st_half_red_cards_home': 0, '10_last_1st_half_red_cards_away': 3, '10_last_2nd_half_red_cards_home': 0, '10_last_2nd_half_red_cards_away': 3, '10_last_1st_half_completed_passes_home': 1041, '10_last_1st_half_completed_passes_away': 1431, '10_last_2nd_half_completed_passes_home': 1041, '10_last_2nd_half_completed_passes_away': 1431}
