@@ -32,8 +32,12 @@ def normalize_value(value):
 def get_half_stat(url, half):
     html = get_html(url)
     soup = BeautifulSoup(html, 'lxml')
-    stat_rows = soup.select('div.statRow')
+    half_table = ('div#tab-statistics-1-statistic'
+                  if half == '1st_half' else
+                  'div#tab-statistics-2-statistic')
+    stat_rows = soup.select(f'{half_table} div.statRow')
     half_stats = {}
+    app_logger.debug(f'Func half stat getting url {url} for {half} half')
     for stat_row in stat_rows:
         try:
             title_value = normalize_value(stat_row.select(
@@ -46,6 +50,7 @@ def get_half_stat(url, half):
             half_stats[f'{half}_{title_value}_away'] = int(away_value)
         except Exception:
             app_logger.exception(f'\n Error receive half stat in {url}')
+    print(half_stats)
     return half_stats
 
 

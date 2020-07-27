@@ -1,6 +1,7 @@
 from fs_live_stat_parser import get_html, get_main_stat, get_half_stat
 from bs4 import BeautifulSoup
 from logs.loggers import app_logger
+from tqdm import tqdm
 
 
 def calculate_stat(stats):  # неправильные значения
@@ -25,6 +26,7 @@ def calculate_stat(stats):  # неправильные значения
     return slice_stats
 
 
+# та же стат только по разделению дома на выезде
 def get_detail_stat(stat_rows, command, championate, limit=10):
     app_logger.debug(f'Start received DETAIL stats for {command}')
     summary_stats = []
@@ -49,8 +51,6 @@ def get_detail_stat(stat_rows, command, championate, limit=10):
             event_id = stat_row['id'][4:]
             first_half_url = f'https://www.flashscore.com/match/{event_id}/#match-statistics;1'
             second_half_url = f'https://www.flashscore.com/match/{event_id}/#match-statistics;2'
-            app_logger.info(
-                '--------------------------------------------------------------------')
             app_logger.info(f'STAT ROW {stat_row}')
             app_logger.info(
                 f'DETAIL STAT {home_command} {event_scores} {away_command}')
@@ -102,15 +102,21 @@ def get_summary_past_stat(url):
     home_past_stat = get_past_command_stat(
         home_command_url, main_stat['home_command'],
         main_stat['championate'], main_stat['date'])
-    print(111111111111111111, home_past_stat)
+    return home_past_stat
 
 
-def insert_past_stat(url):
+def insert_past_stat(url, filename):
     summary_stat = get_summary_past_stat(url)
+    with open(filename, 'w') as file:
+        for key in summary_stat:
+            file.write('{}: {}'.format(key, summary_stat[key]))
 
 
-def main():
-    insert_past_stat('https://www.flashscore.com/match/C2xXOviA')
+def main(): # написать тесты!!!!!!!!!!!
+    insert_past_stat('https://www.flashscore.com/match/C2xXOviA', 'file1.txt')
+    insert_past_stat('https://www.flashscore.com/match/K8BGGGbj', 'file2.txt')
+    insert_past_stat('https://www.flashscore.com/match/baAKFzEd', 'file3.txt')
+    insert_past_stat('https://www.flashscore.com/match/xpMBHdqp', 'file4.txt')
 
 
 main()
