@@ -1,7 +1,7 @@
-from logs.loggers import app_logger
-from init_driver import get_driver
+from stat_scraper.logs.loggers import app_logger
+from stat.scraper.init_driver import get_driver
+from stat.scraper.db_manager import insert_into_events_urls
 from selenium.webdriver.common.keys import Keys
-from db_manager import insert_into_events_urls
 from tqdm import tqdm
 import time
 

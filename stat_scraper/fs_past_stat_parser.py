@@ -1,6 +1,6 @@
-from fs_live_stat_parser import get_html, get_main_stat, get_half_stat
+from stat_scraper.fs_live_stat_parser import get_html, get_main_stat, get_half_stat
 from bs4 import BeautifulSoup
-from logs.loggers import app_logger
+from stat_scraper.logs.loggers import app_logger
 from tqdm import tqdm
 
 
@@ -112,7 +112,7 @@ def insert_past_stat(url, filename):
             file.write('{}: {}'.format(key, summary_stat[key]))
 
 
-def main(): # написать тесты!!!!!!!!!!!
+def main():  # написать тесты!!!!!!!!!!!
     insert_past_stat('https://www.flashscore.com/match/C2xXOviA', 'file1.txt')
     insert_past_stat('https://www.flashscore.com/match/K8BGGGbj', 'file2.txt')
     insert_past_stat('https://www.flashscore.com/match/baAKFzEd', 'file3.txt')

@@ -1,6 +1,6 @@
-from init_driver import get_driver
+from stat_scraper.init_driver import get_driver
+from stat_scraper.logs.loggers import app_logger
 from bs4 import BeautifulSoup
-from logs.loggers import app_logger
 import time
 
 

@@ -1,0 +1,6 @@
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-28 22:04:09,262] Received html https://www.flashscore.com/match/hjDXGPqp/#match-statistics;1
+# DEBUG    fs_live_stat_parser.py[LINE:40][2020-07-28 22:04:09,294] Func half stat getting url https://www.flashscore.com/match/hjDXGPqp/#match-statistics;1 for 1st_half half
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-28 22:04:11,620] Received html https://www.flashscore.com/match/hjDXGPqp/
+# DEBUG    fs_live_stat_parser.py[LINE:60][2020-07-28 22:04:11,637] Start collect main stat data from https://www.flashscore.com/match/hjDXGPqp/
+# DEBUG    fs_live_stat_parser.py[LINE:14][2020-07-28 22:04:15,120] Received html https://www.flashscore.com/match/hjDXGPqp/#match-statistics;2
+# DEBUG    fs_live_stat_parser.py[LINE:40][2020-07-28 22:04:15,151] Func half stat getting url https://www.flashscore.com/match/hjDXGPqp/#match-statistics;2 for 2nd_half half

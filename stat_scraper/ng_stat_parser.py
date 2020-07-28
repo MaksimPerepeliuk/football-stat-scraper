@@ -1,12 +1,12 @@
+from stat_scraper.db_manager import insert_into_ng_odds
+from stat_scraper.logs.loggers import app_logger
+from fake_useragent import UserAgent
+from bs4 import BeautifulSoup
+from multiprocessing import Pool
+from tqdm import tqdm
+from math import ceil
 import datetime
 import requests
-from bs4 import BeautifulSoup
-from fake_useragent import UserAgent
-from logs.loggers import app_logger
-from db_manager import insert_into_ng_odds
-from tqdm import tqdm
-from multiprocessing import Pool
-from math import ceil
 
 
 def get_html(url):
