@@ -65,7 +65,7 @@ def get_detail_stat(stat_rows, command, championate, limit=10):
     return(calculate_stat(summary_stats))
 
 
-def get_past_command_stat(url, command, championate, event_date):
+def find_previous_events(url, command, championate, event_date):
     html = get_html(url)
     soup = BeautifulSoup(html, 'lxml')
     app_logger.debug(
@@ -84,7 +84,8 @@ def get_past_command_stat(url, command, championate, event_date):
                 f'Element date {date_format} == event date {event_date_format}')
             prev_events = stat_row.find_next_siblings(
                 name='div', attrs={'class': 'event__match event__match--static event__match--oneLine'})
-            return get_detail_stat(prev_events, command, championate)
+            # return get_detail_stat(prev_events, command, championate)
+            return prev_events
 
 
 def get_summary_past_stat(url):
@@ -99,9 +100,10 @@ def get_summary_past_stat(url):
     away_command_url = template.format(soup.select(
         'div.team-text.tname-away a.participant-imglink')[0].attrs[
             'onclick'].split("'")[1])
-    home_past_stat = get_past_command_stat(
+    home_prev_events = find_previous_events(
         home_command_url, main_stat['home_command'],
         main_stat['championate'], main_stat['date'])
+    home_past_stat = get_detail_stat(home_prev_events)
     return home_past_stat
 
 
@@ -119,4 +121,5 @@ def main():  # написать тесты!!!!!!!!!!!
     insert_past_stat('https://www.flashscore.com/match/xpMBHdqp', 'file4.txt')
 
 
-main()
+if __name__ == '__main__':
+    main()
