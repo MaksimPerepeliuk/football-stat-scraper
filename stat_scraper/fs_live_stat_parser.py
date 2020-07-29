@@ -11,9 +11,9 @@ def get_html(url):
         time.sleep(0.2)
         html = driver.page_source
         driver.quit()
-        app_logger.debug(f'Received html {url}')
+        app_logger.info(f'Received html {url}\n')
     except Exception:
-        app_logger.exception(f'Error receive html {url}')
+        app_logger.exception(f'Error receive html {url}\n')
     return html
 
 
@@ -32,12 +32,12 @@ def normalize_value(value):
 def get_half_stat(url, half):
     html = get_html(url)
     soup = BeautifulSoup(html, 'lxml')
+    app_logger.info(f'Start parsing HALF {half} stat for {url}\n')
     half_table = ('div#tab-statistics-1-statistic'
                   if half == '1st_half' else
                   'div#tab-statistics-2-statistic')
     stat_rows = soup.select(f'{half_table} div.statRow')
     half_stats = {}
-    app_logger.debug(f'Func half stat getting url {url} for {half} half')
     for stat_row in stat_rows:
         try:
             title_value = normalize_value(stat_row.select(
@@ -49,15 +49,15 @@ def get_half_stat(url, half):
             half_stats[f'{half}_{title_value}_home'] = int(home_value)
             half_stats[f'{half}_{title_value}_away'] = int(away_value)
         except Exception:
-            app_logger.exception(f'\n Error receive half stat in {url}')
-    print(half_stats)
+            app_logger.exception(f'\n Error receive half stat in {url}\n')
+    app_logger.debug(f'Received HALF stat:\n{half_stats}\n')
     return half_stats
 
 
 def get_main_stat(url):
     html = get_html(url)
     soup = BeautifulSoup(html, 'lxml')
-    app_logger.debug(f'Start collect main stat data from {url}')
+    app_logger.info(f'Start parsing MAIN stat for {url}\n')
     main_stat = {}
     championate_info = soup.select(
         'span.description__country')[0].text
@@ -78,7 +78,7 @@ def get_main_stat(url):
     return main_stat
 
 
-def insert_live_stat(url):
+def get_live_stat(url):
     try:
         live_stat = {}
         live_stat.update(get_main_stat(url))
@@ -86,14 +86,14 @@ def insert_live_stat(url):
         second_half_url = url + '#match-statistics;2'
         live_stat.update(get_half_stat(first_half_url, '1st_half'))
         live_stat.update(get_half_stat(second_half_url, '2nd_half'))
-        app_logger.debug(f'Formed data dict with live stat:\n {live_stat}')
+        app_logger.debug(f'Formed data dict with live stat:\n {live_stat}\n')
     except Exception:
         app_logger.exception(f'Error receive elements on {url}')
     print(live_stat)
 
 
 def main():
-    insert_live_stat('https://www.flashscore.com/match/C2xXOviA')
+    get_live_stat('https://www.flashscore.com/match/C2xXOviA')
 
 
 if __name__ == '__main__':

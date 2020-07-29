@@ -1,66 +1,50 @@
 import unittest
+from tests.results import expected_dict
 from stat_scraper.fs_past_stat_parser import find_previous_events
 from stat_scraper.fs_past_stat_parser import get_detail_stat
 from stat_scraper.fs_past_stat_parser import calculate_stat
 
 
-def get_testing_object():
-    res = []
-    for i in range(10):
-        obj = {}
-        obj['1st_half_ball_possession_home'] = 10
-        obj['1st_half_ball_possession_away'] = 20
-        obj['1st_half_goal_attempts_home'] = 30
-        obj['1st_half_goal_attempts_away'] = 40
-        obj['2nd_half_ball_possession_home'] = 10
-        obj['2nd_half_ball_possession_away'] = 20
-        obj['2nd_half_goal_attempts_home'] = 30
-        obj['2nd_half_goal_attempts_away'] = 40
-        res.append(obj)
-    return res
+url = 'https://www.flashscore.com/team/nice/YagoQJpq/results/'
+result = find_previous_events(url, 'Nice', 'Ligue 1', '04.12.2019')
+print(len(result))
+for stat_row in result:
+    event_id = stat_row['id'][4:]
+    first_half_url = f'https://www.flashscore.com/match/{event_id}/#match-statistics;1'
+    print(first_half_url)
 
-
-calc_stat = {
-    '3_last_1st_half_ball_possession_home': 30,
-    '3_last_1st_half_ball_possession_away': 60,
-    '3_last_1st_half_goal_attempts_home': 90,
-    '3_last_1st_half_goal_attempts_away': 120,
-    '3_last_2nd_half_ball_possession_home': 30,
-    '3_last_2nd_half_ball_possession_away': 60,
-    '3_last_2nd_half_goal_attempts_home': 90,
-    '3_last_2nd_half_goal_attempts_away': 120,
-    '5_last_1st_half_ball_possession_home': 50,
-    '5_last_1st_half_ball_possession_away': 100,
-    '5_last_1st_half_goal_attempts_home': 150,
-    '5_last_1st_half_goal_attempts_away': 200,
-    '5_last_2nd_half_ball_possession_home': 50,
-    '5_last_2nd_half_ball_possession_away': 100,
-    '5_last_2nd_half_goal_attempts_home': 150,
-    '5_last_2nd_half_goal_attempts_away': 200,
-    '5_last_2nd_half_red_card_home': 1,
-    '5_last_2nd_half_red_card_away': 0,
-    '10_last_1st_half_ball_possession_home': 100,
-    '10_last_1st_half_ball_possession_away': 200,
-    '10_last_1st_half_goal_attempts_home': 300,
-    '10_last_1st_half_goal_attempts_away': 400,
-    '10_last_2nd_half_ball_possession_home': 100,
-    '10_last_2nd_half_ball_possession_away': 200,
-    '10_last_2nd_half_goal_attempts_home': 300,
-    '10_last_2nd_half_goal_attempts_away': 400,
-    '10_last_2nd_half_red_card_home': 1,
-    '10_last_2nd_half_red_card_away': 0
-}
+# https://www.flashscore.com/match/nNLWvfca/#match-statistics;0 протестировать поведение на некорректном событии
 
 
 class LiveStatParser(unittest.TestCase):
-    url = 'https://www.flashscore.com/match/hjDXGPqp/'
+
+    def get_testing_dict(self):
+        res = []
+        for i in range(10):
+            obj = {}
+            obj['1st_half_ball_possession_home'] = 10
+            obj['1st_half_ball_possession_away'] = 20
+            obj['1st_half_goal_attempts_home'] = 30
+            obj['1st_half_goal_attempts_away'] = 40
+            obj['2nd_half_ball_possession_home'] = 10
+            obj['2nd_half_ball_possession_away'] = 20
+            obj['2nd_half_goal_attempts_home'] = 30
+            obj['2nd_half_goal_attempts_away'] = 40
+            res.append(obj)
+        res[4]['2nd_half_red_card_home'] = 1
+        res[4]['2nd_half_red_card_away'] = 0
+        return res
 
     def test_calculate_stat(self):
-        calc = get_testing_object()
-        calc[4]['2nd_half_red_card_home'] = 1
-        calc[4]['2nd_half_red_card_away'] = 0
-        result = calculate_stat()
-        self.assertEqual(result, calc_stat)
+        testing_dict = self.get_testing_dict()
+        result = calculate_stat(testing_dict)
+        self.assertEqual(result, expected_dict)
+
+    def test_find_prev_events(self):
+        url = 'https://www.flashscore.com/team/nice/YagoQJpq/results/'
+        result = len(find_previous_events(
+            url, 'Nice', 'Ligue 1', '04.12.2019'))
+        self.assertEqual(result, 22)
 
     def test_first_half_stat(self):
         first_half_url = self.url + '#match-statistics;1'

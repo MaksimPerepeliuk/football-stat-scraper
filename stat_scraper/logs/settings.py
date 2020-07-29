@@ -4,9 +4,10 @@ logger_config = {
 
     'formatters': {
         'std_format': {
-            'format': ('# %(levelname)-8s %(filename)s'
+            'format': ('%(levelname)-8s %(filename)s'
                        '[LINE:%(lineno)d]'
-                       '[%(asctime)s] %(message)s'),
+                       '[%(funcName)s] %(message)s'),
+            'datefmt': '%Y-%m-%d %H:%M'
         }
     },
     'handlers': {
@@ -19,7 +20,7 @@ logger_config = {
             'class': 'logging.FileHandler',
             'level': 'INFO',
             'formatter': 'std_format',
-            'filename': 'info.log',
+            'filename': 'stat_scraper/logs/info.log',
             'encoding': 'utf8',
             'mode': 'a'
         },
@@ -27,7 +28,7 @@ logger_config = {
             'class': 'logging.FileHandler',
             'level': 'DEBUG',
             'formatter': 'std_format',
-            'filename': 'debug.log',
+            'filename': 'stat_scraper/logs/debug.log',
             'encoding': 'utf8',
             'mode': 'a'
         },
@@ -35,7 +36,7 @@ logger_config = {
             'class': 'logging.FileHandler',
             'level': 'ERROR',
             'formatter': 'std_format',
-            'filename': 'error.log',
+            'filename': 'stat_scraper/logs/error.log',
             'encoding': 'utf8',
             'mode': 'a'
         }
