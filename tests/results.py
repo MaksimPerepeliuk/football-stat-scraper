@@ -1,5 +1,4 @@
-
-expected_dict = {
+expected_calc_dict = {
     '3_last_1st_half_ball_possession_home': 30,
     '3_last_1st_half_ball_possession_away': 60,
     '3_last_1st_half_goal_attempts_home': 90,
@@ -29,3 +28,5 @@ expected_dict = {
     '10_last_2nd_half_red_card_home': 1,
     '10_last_2nd_half_red_card_away': 0
 }
+
+expected_summary_values = [4, 3, 1, 1, 165]

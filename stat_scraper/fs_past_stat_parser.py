@@ -8,7 +8,7 @@ from tqdm import tqdm
 import time
 
 
-def calculate_stat(stats):  # неправильные значения
+def calculate_stat(stats):
     app_logger.info('Start CALCULATING collected past stats')
     slices = [3, 5, 10, 15, 20]
     sums = {}
@@ -29,14 +29,24 @@ def calculate_stat(stats):  # неправильные значения
     return slice_stats
 
 
+def find_position_events(stats, command, position):
+    position_stats = []
+    for stat in stats:
+        home_position = stat.select('div.event__participant--home')[0].text
+        away_position = stat.select('div.event__participant--away')[0].text
+        target = home_position if position == 'home' else away_position
+        if target == command:
+            position_stats.append(stat)
+    return position_stats
+
+
 # та же стат только по разделению дома на выезде
-def get_summary_stat(stat_rows, command, limit=10):
+def get_summary_stat(stat_rows, command, position, dependence='position', limit=5):
     app_logger.info(f'Start received SUMMARY stats for {command}\n')
+    stat_rows = (find_position_events(stat_rows, command, position)
+                 if dependence == 'position' else stat_rows)
     summary_stats = []
-    for i, stat_row in enumerate(stat_rows):
-        if i + 1 > limit:
-            app_logger.info(f'Processed {i} events, exit from loop')
-            break
+    for i, stat_row in enumerate(stat_rows[:limit]):
         event_stat = {}
         try:
             home_command = stat_row.select(
@@ -54,11 +64,12 @@ def get_summary_stat(stat_rows, command, limit=10):
             event_id = stat_row['id'][4:]
             first_half_url = f'https://www.flashscore.com/match/{event_id}/#match-statistics;1'
             second_half_url = f'https://www.flashscore.com/match/{event_id}/#match-statistics;2'
-            app_logger.info(f'STAT ROW {stat_row}')
             app_logger.info(
                 f'DETAIL STAT {home_command} {event_scores} {away_command}')
-            event_stat.update(get_half_stat(first_half_url, '1st_half'))
-            event_stat.update(get_half_stat(second_half_url, '2nd_half'))
+            event_stat.update(get_half_stat(
+                first_half_url, '1st_half', command_id))
+            event_stat.update(get_half_stat(
+                second_half_url, '2nd_half', command_id))
             summary_stats.append(event_stat)
         except Exception:
             app_logger.exception(
@@ -68,10 +79,34 @@ def get_summary_stat(stat_rows, command, limit=10):
     return(calculate_stat(summary_stats))
 
 
-def get_previous_events(html):
+def get_more_events(url, clicks=15):
+    driver = get_driver()
+    driver.get(url)
+    time.sleep(1)
+    more_event_btn = driver.find_element_by_css_selector('a.event__more')
+    more_event_btn.send_keys(Keys.END)
+    app_logger.info(f'Start CLICKING to show more btn on {url} page')
+    for i in range(clicks):
+        try:
+            time.sleep(1)
+            more_event_btn.click()
+        except Exception:
+            app_logger.exception('Button show more events not found')
+            html = driver.page_source
+            driver.quit()
+            return html
+    html = driver.page_source
+    driver.quit()
+    return html
+
+
+def find_previous_events(url, event_date):
+    html = get_more_events(url)
     soup = BeautifulSoup(html, 'lxml')
-    app_logger.info(f'Start finding PREV events for {event_date} {url}\n')
+    app_logger.info(f'Start finding PREV events for {event_date}\n')
     stat_rows = soup.select('div.event__match')
+    last_date = stat_rows[-1].select('div.event__time')[0].text.split(' ')[0]
+    app_logger.info(f'LAST date in received stat rows = {last_date}\n')
     for stat_row in stat_rows:
         date = stat_row.select('div.event__time')[0].text.split(' ')
         date_parts = date[0].split('.')
@@ -80,45 +115,21 @@ def get_previous_events(html):
         event_date_parts = event_date.split('.')
         event_date_format = event_date_parts[0] + \
             event_date_parts[1] if len(date) > 1 else event_date
-        app_logger.debug(
-            (f'Getting date {event_date},found date {date},'
-                'getting date form {event_date_format},'
-                'found date form {date_format}\n'))
         if date_format == event_date_format:
             prev_events = stat_row.find_next_siblings(
                 name='div', attrs={'class': 'event__match'})
-            app_logger.debu(
+            app_logger.debug(
                 f'Found previous {len(prev_events)} events earlier {event_date}\n')
             return prev_events
     return []
 
 
-def get_more_events(url, clicks=5):
-    driver = get_driver()
-    driver.get(url)
-    time.sleep(0.5)
-    more_event_btn = driver.find_element_by_css_selector('a.event__more')
-    more_event_btn.send_keys(Keys.END)
-    for i in range(clicks):
-        time.sleep(0.5)
-        more_event_btn.click()
-    html = driver.page_source
-    driver.quit()
-    return html
-
-
-print(get_more_events('https://www.flashscore.com/team/nice/YagoQJpq/results/'))
-
-
-def find_previous_events(url, event_date):  # add selenium click
-    html = get_html(url)
-    while True:
-        prev_events = get_previous_events(html, event_date)
-        if len(prev_events) == 0:
-            more_html = get_more_events(url)
-            prev_events = get_previous_events(more_html, event_date)
-        else:
-            return prev_events
+def add_type_command(stats, type_command):
+    items = stats.items()
+    result = {}
+    for key, value in items:
+        result[f'{type_command}_' + key] = value
+    return result
 
 
 def get_past_stat(url):
@@ -133,29 +144,32 @@ def get_past_stat(url):
     away_command_url = template.format(soup.select(
         'div.team-text.tname-away a.participant-imglink')[0].attrs[
             'onclick'].split("'")[1])
-    home_prev_events = find_previous_events(home_command_url,
-                                            main_stat['home_command'],
-                                            main_stat['date'])
-    home_past_stat = get_summary_stat(home_prev_events,
-                                      main_stat['home_command'])
-    # logging
-    return home_past_stat
+    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
+    away_prev_events = find_previous_events(away_command_url, main_stat['date'])
+    past_stat = {}
+    home_past_stat = add_type_command(get_summary_stat(
+        home_prev_events, main_stat['home_command'], 'home'), 'HOME')
+    away_past_stat = add_type_command(get_summary_stat(
+        away_prev_events, main_stat['away_command'], 'away'), 'AWAY')
+    past_stat.update(home_past_stat)
+    past_stat.update(away_past_stat)
+    app_logger.debug(f'Formed PAST STAT: \n{past_stat}\n')
+    return past_stat
 
 
-def insert_past_stat(url, filename):
-    summary_stat = get_past_stat(url)
-    with open(filename, 'w') as file:
-        for key in summary_stat:
-            file.write('{}: {}\n'.format(key, summary_stat[key]))
+# def insert_past_stat(url, filename):
+#     summary_stat = get_past_stat(url)
+#     with open(filename, 'w') as file:
+#         for key in summary_stat:
+#             file.write('{}: {}\n'.format(key, summary_stat[key]))
 
 
 def main():  # написать тесты!!!!!!!!!!!
-    # insert_past_stat('https://www.flashscore.com/match/C2xXOviA', 'file1.txt')
+    # get_past_stat('https://www.flashscore.com/match/C2xXOviA')
     # insert_past_stat('https://www.flashscore.com/match/K8BGGGbj', 'file2.txt')
     # insert_past_stat('https://www.flashscore.com/match/baAKFzEd', 'file3.txt')
-    # insert_past_stat('https://www.flashscore.com/match/xpMBHdqp', 'file4.txt')
-    insert_past_stat(
-        'https://www.flashscore.com/match/nNLWvfca', 'invalid.txt')
+    get_past_stat('https://www.flashscore.com/match/xpMBHdqp')
+    # get_past_stat('https://www.flashscore.com/match/nNLWvfca', 'invalid.txt')
 
 
 if __name__ == '__main__':

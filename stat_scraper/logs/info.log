@@ -1,0 +1,114 @@
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_live_stat_parser.py[LINE:69][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_past_stat_parser.py[LINE:139][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_past_stat_parser.py[LINE:88][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/newells-old-boys/6gMiRHVj/results/ page
+INFO     fs_past_stat_parser.py[LINE:106][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:109][find_previous_events] LAST date in received stat rows = 27.02.2005
+
+INFO     fs_past_stat_parser.py[LINE:88][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/godoy-cruz/tUAxIm6l/results/ page
+INFO     fs_past_stat_parser.py[LINE:106][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:109][find_previous_events] LAST date in received stat rows = 17.04.2005
+
+INFO     fs_past_stat_parser.py[LINE:45][get_summary_stat] Start received SUMMARY stats for Newells Old Boys
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Newells Old Boys [<span>4</span>, <span>0</span>] Colon Santa FE
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/Obk8aONb/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/Obk8aONb/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/Obk8aONb/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/Obk8aONb/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Newells Old Boys [<span>0</span>, <span>0</span>] Estudiantes L.P.
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/hI9Fgde8/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/hI9Fgde8/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/hI9Fgde8/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/hI9Fgde8/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Newells Old Boys [<span>1</span>, <span>0</span>] San Lorenzo
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/fR9xLykq/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/fR9xLykq/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/fR9xLykq/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/fR9xLykq/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Newells Old Boys [<span>2</span>, <span>3</span>] River Plate
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/6RE0J3ds/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/6RE0J3ds/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/6RE0J3ds/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/6RE0J3ds/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Newells Old Boys [<span>2</span>, <span>0</span>] Defensa y Justicia
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/8dWQy6D1/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/8dWQy6D1/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/8dWQy6D1/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/8dWQy6D1/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:12][calculate_stat] Start CALCULATING collected past stats
+INFO     fs_past_stat_parser.py[LINE:45][get_summary_stat] Start received SUMMARY stats for Godoy Cruz
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Velez Sarsfield [<span>0</span>, <span>1</span>] Godoy Cruz
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/xAmboY2l/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/xAmboY2l/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/xAmboY2l/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/xAmboY2l/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Boca Juniors [<span>3</span>, <span>0</span>] Godoy Cruz
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/ph2toP85/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/ph2toP85/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/ph2toP85/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/ph2toP85/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Lanus [<span>2</span>, <span>0</span>] Godoy Cruz
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/xnNAPHtS/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/xnNAPHtS/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/xnNAPHtS/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/xnNAPHtS/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Defensa y Justicia [<span>2</span>, <span>0</span>] Godoy Cruz
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/nauyHVit/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/nauyHVit/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/nauyHVit/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/nauyHVit/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:67][get_summary_stat] DETAIL STAT Patronato [<span>0</span>, <span>2</span>] Godoy Cruz
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/EDobB64K/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/EDobB64K/#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14][get_html] Received html https://www.flashscore.com/match/EDobB64K/#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/EDobB64K/#match-statistics;2
+
+INFO     fs_past_stat_parser.py[LINE:12][calculate_stat] Start CALCULATING collected past stats
