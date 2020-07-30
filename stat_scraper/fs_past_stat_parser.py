@@ -152,24 +152,5 @@ def get_past_stat(url):
         away_prev_events, main_stat['away_command'], 'away'), 'AWAY')
     past_stat.update(home_past_stat)
     past_stat.update(away_past_stat)
-    app_logger.debug(f'Formed PAST STAT: \n{past_stat}\n')
+    app_logger.debug(f'Formed PAST STAT')
     return past_stat
-
-
-# def insert_past_stat(url, filename):
-#     summary_stat = get_past_stat(url)
-#     with open(filename, 'w') as file:
-#         for key in summary_stat:
-#             file.write('{}: {}\n'.format(key, summary_stat[key]))
-
-
-def main():  # написать тесты!!!!!!!!!!!
-    # get_past_stat('https://www.flashscore.com/match/C2xXOviA')
-    # insert_past_stat('https://www.flashscore.com/match/K8BGGGbj', 'file2.txt')
-    # insert_past_stat('https://www.flashscore.com/match/baAKFzEd', 'file3.txt')
-    get_past_stat('https://www.flashscore.com/match/xpMBHdqp')
-    # get_past_stat('https://www.flashscore.com/match/nNLWvfca', 'invalid.txt')
-
-
-if __name__ == '__main__': # каково буде т поведение при try на этом этапе
-    main()

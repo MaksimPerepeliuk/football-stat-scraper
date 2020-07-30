@@ -9,6 +9,7 @@ from stat_scraper.logs.loggers import app_logger
 from multiprocessing import Pool
 from multiprocessing.dummy import Pool as ThreadPool
 from functools import partial
+from stat_scraper.db_manager import select_all_urls
 
 
 def write_csv(filename, data, order):
@@ -45,7 +46,7 @@ def run_parse(n_worker, filename, url):
 
 
 @time_track
-def run_multithread_parse(urls, n_threads):
+def run_multi_parse(urls, n_threads, type):
     pool = Pool(n_threads)
     filename = f'./tests/{n_threads}thread_result.txt'
     func = partial(run_parse, n_threads, filename)
@@ -60,5 +61,12 @@ def run_multithread_parse(urls, n_threads):
 
 
 if __name__ == '__main__':
-    for n_threads in tqdm(range(8, 14, 2)):
-        run_multithread_parse(urls, n_threads)
+    # urls_partial = [urls[:3], urls[3:6], urls[6:9]]
+    # for urls_part in tqdm(urls_partial):
+    urls = select_all_urls()[:100]
+    urls_partial = [urls[:10], urls[10:20], urls[20:30],
+                    urls[30:40], urls[40:50], urls[50:60],
+                    urls[60:70], urls[70:80], urls[80:90],
+                    urls[90:]]
+    for urls_part in tqdm(urls_partial):
+        run_multi_parse(urls_part, 10, 'multiprocessing [100:33]')

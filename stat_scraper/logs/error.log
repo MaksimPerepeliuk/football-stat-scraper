@@ -10,168 +10,7 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 1068). Other element would receive the click: <div id="onetrust-policy">...</div>
   (Session info: headless chrome=84.0.4147.89)
 
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
@@ -201,227 +40,7 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 300). Other element would receive the click: <div class="event__participant event__participant--away fontBold">...</div>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
   (Session info: headless chrome=84.0.4147.89)
 
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
@@ -451,96 +70,7 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
   (Session info: headless chrome=84.0.4147.89)
 
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
@@ -570,77 +100,7 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
-  (Session info: headless chrome=84.0.4147.89)
-
-ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
-    more_event_btn.click()
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 744). Other element would receive the click: <span class="loadingOverlay">...</span>
   (Session info: headless chrome=84.0.4147.89)
 
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
@@ -658,29 +118,6 @@ Traceback (most recent call last):
 selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
   (Session info: headless chrome=84.0.4147.89)
 
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 77, in get_main_stat
-    main_stat['round_num'] = championate_info.split(
-IndexError: list index out of range
-ERROR    speed_run_test.py[LINE:44][run_parse] ERROR RUN PARSE ON URL https://www.flashscore.com/match/xfTkwU6A
-Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/tests/speed_run_test.py", line 41, in run_parse
-    summary_stat.update(get_past_stat(url))
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 146, in get_past_stat
-    home_prev_events = find_previous_events(home_command_url, main_stat['date'])
-KeyError: 'date'
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
 Traceback (most recent call last):
   File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
@@ -708,12 +145,81 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
   (Session info: headless chrome=84.0.4147.89)
 
-ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
-Error received data from stat row Beerschot VA
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
 Traceback (most recent call last):
-  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 56, in get_summary_stat
-    first_half_scores = stat_row.select(
-IndexError: list index out of range
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 1068). Other element would receive the click: <div id="onetrust-policy">...</div>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+

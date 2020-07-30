@@ -5,9 +5,6 @@ from stat_scraper.fs_past_stat_parser import get_previous_events
 from stat_scraper.fs_past_stat_parser import calculate_stat
 
 
-# https://www.flashscore.com/match/nNLWvfca/#match-statistics;0 протестировать поведение на некорректном событии
-
-
 class LiveStatParser(unittest.TestCase):
 
     def get_testing_dict(self):

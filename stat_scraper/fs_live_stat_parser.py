@@ -100,11 +100,3 @@ def get_live_stat(url):
     live_stat.update(get_half_stat(second_half_url, '2nd_half'))
     app_logger.debug(f'Formed data dict with live stat:\n {live_stat}\n')
     return live_stat
-
-
-def main():
-    get_live_stat('https://www.flashscore.com/match/C2xXOviA')
-
-
-if __name__ == '__main__':
-    main()
