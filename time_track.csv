@@ -1,0 +1,4 @@
+process_type,worker_amount,running_time,urls_count
+multithreading,1,1.6333,5
+multithreading,1,1.6316,10
+multithreading,1,1.6633,10

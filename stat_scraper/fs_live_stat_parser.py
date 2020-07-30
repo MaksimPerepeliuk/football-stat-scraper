@@ -68,23 +68,26 @@ def get_main_stat(url):
     soup = BeautifulSoup(html, 'lxml')
     app_logger.info(f'Start parsing MAIN stat for {url}\n')
     main_stat = {}
-    championate_info = soup.select(
-        'span.description__country')[0].text
-    main_stat['country'] = championate_info.split(':')[0]
-    main_stat['championate'] = championate_info.split(
-        ':')[1].split('-')[0].strip()
-    main_stat['round_num'] = championate_info.split(
-        ':')[1].split('-')[1].strip()
-    main_stat['date'] = soup.select('div#utime')[0].text.split(' ')[0]
-    main_stat['home_command'] = soup.select(
-        'div.team-text.tname-home a.participant-imglink')[0].text
-    main_stat['away_command'] = soup.select(
-        'div.team-text.tname-away a.participant-imglink')[0].text
-    main_stat['result_score'] = soup.select(
-        'div#event_detail_current_result')[0].text.strip()
-    detail_info = soup.select('div.detailMS')[0]
-    main_stat['goal_minutes'] = get_goal_minutes(
-        detail_info.encode_contents())
+    try:
+        championate_info = soup.select(
+            'span.description__country')[0].text
+        main_stat['country'] = championate_info.split(':')[0]
+        main_stat['championate'] = championate_info.split(
+            ':')[1].split('-')[0].strip()
+        main_stat['round_num'] = championate_info.split(
+            ':')[1].split('-')[1].strip()
+        main_stat['date'] = soup.select('div#utime')[0].text.split(' ')[0]
+        main_stat['home_command'] = soup.select(
+            'div.team-text.tname-home a.participant-imglink')[0].text
+        main_stat['away_command'] = soup.select(
+            'div.team-text.tname-away a.participant-imglink')[0].text
+        main_stat['result_score'] = soup.select(
+            'div#event_detail_current_result')[0].text.strip()
+        detail_info = soup.select('div.detailMS')[0]
+        main_stat['goal_minutes'] = get_goal_minutes(
+            detail_info.encode_contents())
+    except Exception:
+        app_logger.exception(f'Error receiving main stat elements {url}')
     return main_stat
 
 

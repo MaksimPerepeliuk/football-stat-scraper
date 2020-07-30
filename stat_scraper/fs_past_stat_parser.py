@@ -79,7 +79,7 @@ def get_summary_stat(stat_rows, command, position, dependence='position', limit=
     return(calculate_stat(summary_stats))
 
 
-def get_more_events(url, clicks=15):
+def get_more_events(url, clicks=10):
     driver = get_driver()
     driver.get(url)
     time.sleep(1)
@@ -91,7 +91,7 @@ def get_more_events(url, clicks=15):
             time.sleep(1)
             more_event_btn.click()
         except Exception:
-            app_logger.exception('Button show more events not found')
+            app_logger.exception('Button show more events not found url {url}')
             html = driver.page_source
             driver.quit()
             return html
@@ -172,5 +172,5 @@ def main():  # написать тесты!!!!!!!!!!!
     # get_past_stat('https://www.flashscore.com/match/nNLWvfca', 'invalid.txt')
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': # каково буде т поведение при try на этом этапе
     main()
