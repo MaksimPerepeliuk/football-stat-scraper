@@ -20,7 +20,7 @@ def write_file(filename, data):
         file.write(f'{data}\n\n\n\n')
 
 
-def run(urls, filename):
+def run_parse(urls, filename):
     for url in urls:
         try:
             write_file(filename, get_past_stat(url))

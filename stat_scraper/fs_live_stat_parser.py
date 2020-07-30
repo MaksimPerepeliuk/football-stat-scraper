@@ -92,17 +92,14 @@ def get_main_stat(url):
 
 
 def get_live_stat(url):
-    try:
-        live_stat = {}
-        live_stat.update(get_main_stat(url))
-        first_half_url = url + '#match-statistics;1'
-        second_half_url = url + '#match-statistics;2'
-        live_stat.update(get_half_stat(first_half_url, '1st_half'))
-        live_stat.update(get_half_stat(second_half_url, '2nd_half'))
-        app_logger.debug(f'Formed data dict with live stat:\n {live_stat}\n')
-    except Exception:
-        app_logger.exception(f'Error receive elements on {url}')
-    print(live_stat)
+    live_stat = {}
+    live_stat.update(get_main_stat(url))
+    first_half_url = url + '#match-statistics;1'
+    second_half_url = url + '#match-statistics;2'
+    live_stat.update(get_half_stat(first_half_url, '1st_half'))
+    live_stat.update(get_half_stat(second_half_url, '2nd_half'))
+    app_logger.debug(f'Formed data dict with live stat:\n {live_stat}\n')
+    return live_stat
 
 
 def main():

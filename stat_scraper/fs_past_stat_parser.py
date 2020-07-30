@@ -4,7 +4,6 @@ from stat_scraper.init_driver import get_driver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 from stat_scraper.logs.loggers import app_logger
-from tqdm import tqdm
 import time
 
 
