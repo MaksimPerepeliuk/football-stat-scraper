@@ -47,7 +47,7 @@ def run_parse(n_worker, filename, url):
 
 @time_track
 def run_multi_parse(urls, n_threads, perf_type):
-    pool = Pool(n_threads)
+    pool = ThreadPool(n_threads)
     filename = f'./tests/{n_threads}thread_result.txt'
     func = partial(run_parse, n_threads, filename)
     pool.map(func, urls)
@@ -64,4 +64,4 @@ if __name__ == '__main__':
     # urls_partial = [urls[:3], urls[3:6], urls[6:9]]
     # for urls_part in tqdm(urls_partial):
     urls = select_all_urls()[:100] # 36 errors
-    run_multi_parse(urls, 10, 'multiprocessing [all time sleep 0.2]')
+    run_multi_parse(urls, 30, 'multithreading')
