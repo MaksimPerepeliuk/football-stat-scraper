@@ -110,7 +110,7 @@ def select_all_urls():
             return result
 
 
-# def insert_into_fs_foot_stat(stat):
+# def insert_into_fs_foot_stats(stat):
 #     connection = psycopg2.connect(dbname='football_stat', user='max',
 #                                   password=os.environ['PSQL_MAX_PASS'],
 #                                   host='localhost')

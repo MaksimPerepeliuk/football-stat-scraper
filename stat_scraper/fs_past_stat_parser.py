@@ -40,7 +40,7 @@ def find_position_events(stats, command, position):
 
 
 # та же стат только по разделению дома на выезде
-def get_summary_stat(stat_rows, command, position, dependence='position', limit=5):
+def get_summary_stat(stat_rows, command, position, dependence='position', limit=15):
     app_logger.info(f'Start received SUMMARY stats for {command}\n')
     stat_rows = (find_position_events(stat_rows, command, position)
                  if dependence == 'position' else stat_rows)
@@ -78,7 +78,7 @@ def get_summary_stat(stat_rows, command, position, dependence='position', limit=
     return(calculate_stat(summary_stats))
 
 
-def get_more_events(url, clicks=10):
+def get_more_events(url, clicks=12):
     driver = get_driver()
     driver.get(url)
     time.sleep(1)
@@ -152,5 +152,5 @@ def get_past_stat(url):
         away_prev_events, main_stat['away_command'], 'away'), 'AWAY')
     past_stat.update(home_past_stat)
     past_stat.update(away_past_stat)
-    app_logger.debug(f'Formed PAST STAT')
+    app_logger.debug('Formed PAST STAT')
     return past_stat

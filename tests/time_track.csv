@@ -31,3 +31,5 @@ multytprocessing,10,10,147.2939
 multytprocessing,10,10,155.5229
 multytprocessing,10,10,156.6243
 multytprocessing,10,10,151.4521
+multiprocessing [100],10,100,4127.309
+multiprocessing [all time sleep 0.2],10,100,3820.4131

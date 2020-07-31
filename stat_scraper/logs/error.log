@@ -10,7 +10,337 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 1068). Other element would receive the click: <div id="onetrust-policy">...</div>
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_live_stat_parser.py[LINE:16][get_html] Error receive html https://www.flashscore.com/match/xjcbpw04/#match-statistics;2
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 9, in get_html
+    driver = get_driver()
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/init_driver.py", line 10, in get_driver
+    driver = webdriver.Chrome(options=chrome_options,
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+
+ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
+Error received data from stat row River Plate
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 70, in get_summary_stat
+    event_stat.update(get_half_stat(
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 33, in get_half_stat
+    html = get_html(url)
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 17, in get_html
+    return html
+UnboundLocalError: local variable 'html' referenced before assignment
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
   (Session info: headless chrome=84.0.4147.89)
 
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
@@ -100,9 +430,94 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 744). Other element would receive the click: <span class="loadingOverlay">...</span>
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
   (Session info: headless chrome=84.0.4147.89)
 
+ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/AayGH2ri
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 86, in get_main_stat
+    detail_info = soup.select('div.detailMS')[0]
+IndexError: list index out of range
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_live_stat_parser.py[LINE:90][get_main_stat] Error receiving main stat elements https://www.flashscore.com/match/vuTWDKsG
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 86, in get_main_stat
+    detail_info = soup.select('div.detailMS')[0]
+IndexError: list index out of range
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
 Traceback (most recent call last):
   File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
@@ -160,7 +575,22 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 1068). Other element would receive the click: <div id="onetrust-policy">...</div>
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
   (Session info: headless chrome=84.0.4147.89)
 
 ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
@@ -205,6 +635,66 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_live_stat_parser.py[LINE:16][get_html] Error receive html https://www.flashscore.com/match/zNQOd7kR/#match-statistics;1
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 9, in get_html
+    driver = get_driver()
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/init_driver.py", line 10, in get_driver
+    driver = webdriver.Chrome(options=chrome_options,
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+
+ERROR    fs_past_stat_parser.py[LINE:74][get_summary_stat] 
+Error received data from stat row Newells Old Boys
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 68, in get_summary_stat
+    event_stat.update(get_half_stat(
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 33, in get_half_stat
+    html = get_html(url)
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_live_stat_parser.py", line 17, in get_html
+    return html
+UnboundLocalError: local variable 'html' referenced before assignment
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
   (Session info: headless chrome=84.0.4147.89)
 
@@ -220,6 +710,36 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
+  (Session info: headless chrome=84.0.4147.89)
+
+ERROR    fs_past_stat_parser.py[LINE:93][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 91, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="event__more event__more--static" href="#">...</a> is not clickable at point (942, 464). Other element would receive the click: <span class="loadingOverlay">...</span>
   (Session info: headless chrome=84.0.4147.89)
 
