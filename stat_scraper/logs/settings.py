@@ -6,6 +6,7 @@ logger_config = {
         'std_format': {
             'format': ('%(levelname)-8s %(filename)s'
                        '[LINE:%(lineno)d %(asctime)s]'
+                       '[%(processName)s]'
                        '[%(funcName)s] %(message)s'),
             'datefmt': '%Y-%m-%d %H:%M'
         }

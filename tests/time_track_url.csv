@@ -1,0 +1,3 @@
+process_type,worker_amount,urls_count,running_time
+multiprocessing,10,10,334.5245
+multiprocessing,10,10,334.0991

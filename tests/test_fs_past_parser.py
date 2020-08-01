@@ -1,5 +1,5 @@
 import unittest
-from tests.results import expected_calc_dict, expected_summary_values
+from tests.expected_values import expected_calc_dict, expected_summary_values
 from stat_scraper.fs_past_stat_parser import get_summary_stat
 from stat_scraper.fs_past_stat_parser import get_previous_events
 from stat_scraper.fs_past_stat_parser import calculate_stat
