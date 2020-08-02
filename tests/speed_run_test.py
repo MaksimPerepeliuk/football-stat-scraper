@@ -1,7 +1,6 @@
-import os
-import csv
 import time
 from tqdm import tqdm
+from stat_scraper.utils import get_csv_rows
 from tests.past_stat_smoke_test import write_file
 from stat_scraper.fs_live_stat_parser import get_live_stat
 from stat_scraper.fs_past_stat_parser import get_past_stat
@@ -11,30 +10,15 @@ from multiprocessing.dummy import Pool as ThreadPool
 from functools import partial
 from stat_scraper.utils import chunk, send_email
 from stat_scraper.db_manager import select_all_urls
+from stat_scraper.utils import time_track, get_csv_rows
 
 
-def write_csv(filename, data, order):
-    with open(filename, 'a') as file:
-        writer = csv.DictWriter(file, fieldnames=order)
-        is_empty = os.stat(filename).st_size == 0
-        if is_empty:
-            writer.writeheader()
-        writer.writerow(data)
-
-
-def time_track(func):
-
-    def surrogate(*args, **kwargs):
-        started_at = time.time()
-
-        result = func(*args)
-
-        ended_at = time.time()
-        result['running_time'] = round(ended_at - started_at, 4)
-        write_csv('./tests/time_track_url.csv', result,
-                  ['process_type', 'worker_amount',
-                   'urls_count', 'running_time'])
-    return surrogate
+def get_average_time(filename='stat_scraper/logs/time_tracks/time_track_url.csv'):
+    rows = get_csv_rows(filename)
+    run_seconds = []
+    for row in rows[1:]:
+        run_seconds.append(float(row[0].split(',')[-1]))
+    return round(sum(run_seconds) / len(run_seconds), 3)
 
 
 def run_parse(filename, url):
@@ -64,9 +48,24 @@ def run_multi_parse(urls, n_proc):
     }
 
 
-if __name__ == '__main__':
+def main():
     urls = select_all_urls()[:50]
-    urls_chunks = chunk(urls, 10)
+    urls_chunks = chunk(urls, 5)
+    urls_processed = 0
+    started_at = time.time()
+    hour_detect = time.time()
     for urls_chunk in tqdm(urls_chunks):
         run_multi_parse(urls_chunk, 10)
-    send_email('speed run test finish!!!')
+        urls_processed += 10
+        current_time = time.time()
+        if current_time - hour_detect > 3600:
+            hour_detect = current_time
+            common_time_work = round((current_time - started_at) / 60, 2)
+            send_email(
+                f'SERVER #  URL`s processed - {urls_processed}, time work {common_time_work} min\n'
+                f'Average time process 10 url = {get_average_time()}')
+    send_email('SERVER #   Main function finish!!!')
+
+
+if __name__ == '__main__':
+    main()

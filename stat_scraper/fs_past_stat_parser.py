@@ -39,7 +39,6 @@ def find_position_events(stats, command, position):
     return position_stats
 
 
-# та же стат только по разделению дома на выезде
 def get_summary_stat(stat_rows, command, position, dependence='position', limit=15):
     app_logger.info(f'Start received SUMMARY stats for {command}\n')
     stat_rows = (find_position_events(stat_rows, command, position)
