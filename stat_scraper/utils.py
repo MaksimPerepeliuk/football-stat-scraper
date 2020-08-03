@@ -59,3 +59,8 @@ def get_csv_rows(filename):
         for row in csvreader:
             rows.append(row)
     return rows
+
+
+def write_text_file(filename, text):
+    with open(filename, 'w') as file:
+        file.write(text)

@@ -4,7 +4,29 @@ from stat_scraper.init_driver import get_driver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 from stat_scraper.logs.loggers import app_logger
+from fake_useragent import UserAgent
+import requests
 import time
+
+
+def rows_filter(stat_rows, championate, limit=15):
+    user_agent = UserAgent().chrome
+    filtered_rows = []
+    for stat_row in stat_rows:
+        if len(filtered_rows) == limit:
+            return filtered_rows
+        try:
+            event_id = stat_row['id'][4:]
+            url = 'https://www.flashscore.com/match/' + event_id
+            r = requests.get(url, headers={'User-Agent': user_agent})
+            soup = BeautifulSoup(r.text, 'lxml')
+            elem_champ = soup.select(
+                'span.description__country')[0].text.split(':')[1].split('-')[0].strip()
+        except Exception:
+            app_logger.exception('Error RECEIVNING INFO FOR ROWS FILTER!!!')
+        if elem_champ == championate:
+            filtered_rows.append(stat_row)
+    return filtered_rows
 
 
 def calculate_stat(stats):
@@ -39,12 +61,14 @@ def find_position_events(stats, command, position):
     return position_stats
 
 
-def get_summary_stat(stat_rows, command, position, dependence='position', limit=15):
+def get_summary_stat(stat_rows, command, championate, position, select_type='position'):
     app_logger.info(f'Start received SUMMARY stats for {command}\n')
     stat_rows = (find_position_events(stat_rows, command, position)
-                 if dependence == 'position' else stat_rows)
+                 if select_type == 'position' else stat_rows)
+    stat_rows = rows_filter(stat_rows, championate)
+    app_logger.info(f'LEFT AFTER FILTER {len(stat_rows)} rows ')
     summary_stats = []
-    for i, stat_row in enumerate(stat_rows[:limit]):
+    for stat_row in stat_rows:
         event_stat = {}
         try:
             home_command = stat_row.select(
@@ -146,9 +170,11 @@ def get_past_stat(url):
     away_prev_events = find_previous_events(away_command_url, main_stat['date'])
     past_stat = {}
     home_past_stat = add_type_command(get_summary_stat(
-        home_prev_events, main_stat['home_command'], 'home'), 'HOME')
+        home_prev_events, main_stat['home_command'],
+        main_stat['championate'], 'home'), 'HOME')
     away_past_stat = add_type_command(get_summary_stat(
-        away_prev_events, main_stat['away_command'], 'away'), 'AWAY')
+        away_prev_events, main_stat['away_command'],
+        main_stat['championate'], 'away'), 'AWAY')
     past_stat.update(home_past_stat)
     past_stat.update(away_past_stat)
     app_logger.debug('Formed PAST STAT')

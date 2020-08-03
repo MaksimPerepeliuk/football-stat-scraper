@@ -8,7 +8,7 @@ logger_config = {
                        '[LINE:%(lineno)d %(asctime)s]'
                        '[%(processName)s]'
                        '[%(funcName)s] %(message)s'),
-            'datefmt': '%Y-%m-%d %H:%M'
+            'datefmt': '%Y-%m-%d %H:%M-%S'
         }
     },
     'handlers': {

@@ -90,6 +90,14 @@ version = "5.2.1"
 toml = ["toml"]
 
 [[package]]
+category = "main"
+description = "Up to date simple useragent faker with real world database"
+name = "fake-useragent"
+optional = false
+python-versions = "*"
+version = "0.1.11"
+
+[[package]]
 category = "dev"
 description = "the modular source code checker: pep8 pyflakes and co"
 name = "flake8"
@@ -433,7 +441,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "cbcc56d7e38ba2f83becaa3c9b83ed82ffaacbe6f1f4c649f8e7730ca90265d8"
+content-hash = "07d538f9636b1ddb726904a2e481919154c7d10961a8114cb3b41a97c567cd0d"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -501,6 +509,9 @@ coverage = [
     {file = "coverage-5.2.1-cp39-cp39-win32.whl", hash = "sha256:9e536783a5acee79a9b308be97d3952b662748c4037b6a24cbb339dc7ed8eb89"},
     {file = "coverage-5.2.1-cp39-cp39-win_amd64.whl", hash = "sha256:b8f58c7db64d8f27078cbf2a4391af6aa4e4767cc08b37555c4ae064b8558d9b"},
     {file = "coverage-5.2.1.tar.gz", hash = "sha256:a34cb28e0747ea15e82d13e14de606747e9e484fb28d63c999483f5d5188e89b"},
+]
+fake-useragent = [
+    {file = "fake-useragent-0.1.11.tar.gz", hash = "sha256:c104998b750eb097eefc28ae28e92d66397598d2cf41a31aa45d5559ef1adf35"},
 ]
 flake8 = [
     {file = "flake8-3.8.3-py2.py3-none-any.whl", hash = "sha256:15e351d19611c887e482fb960eae4d44845013cc142d42896e9862f775d8cf5c"},

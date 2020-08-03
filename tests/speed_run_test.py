@@ -6,11 +6,11 @@ from stat_scraper.fs_live_stat_parser import get_live_stat
 from stat_scraper.fs_past_stat_parser import get_past_stat
 from stat_scraper.logs.loggers import app_logger
 from multiprocessing import Pool
-from multiprocessing.dummy import Pool as ThreadPool
 from functools import partial
 from stat_scraper.utils import chunk, send_email
 from stat_scraper.db_manager import select_all_urls
-from stat_scraper.utils import time_track, get_csv_rows
+from stat_scraper.utils import time_track
+# from multiprocessing.dummy import Pool as ThreadPool
 
 
 def get_average_time(filename='stat_scraper/logs/time_tracks/time_track_url.csv'):
@@ -48,24 +48,25 @@ def run_multi_parse(urls, n_proc):
     }
 
 
-def main():
-    urls = select_all_urls()[:50]
+def main(n_proc=2, mail_every_sec=60):
+    urls = select_all_urls()[:30]
     urls_chunks = chunk(urls, 5)
     urls_processed = 0
     started_at = time.time()
     hour_detect = time.time()
     for urls_chunk in tqdm(urls_chunks):
-        run_multi_parse(urls_chunk, 10)
+        run_multi_parse(urls_chunk, n_proc)
         urls_processed += 10
         current_time = time.time()
-        if current_time - hour_detect > 3600:
+        if current_time - hour_detect > mail_every_sec:
             hour_detect = current_time
             common_time_work = round((current_time - started_at) / 60, 2)
             send_email(
                 f'SERVER #  URL`s processed - {urls_processed}, time work {common_time_work} min\n'
-                f'Average time process 10 url = {get_average_time()}')
+                f'Average time process 10 url = {get_average_time()} n_proc = {n_proc}')
     send_email('SERVER #   Main function finish!!!')
 
 
 if __name__ == '__main__':
-    main()
+    for n_proc in range(1, 6):
+        main(n_proc)
