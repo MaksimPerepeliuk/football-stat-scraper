@@ -46,7 +46,7 @@ def time_track(func):
         ended_at = time.time()
 
         result['running_time'] = round(ended_at - started_at, 4)
-        write_csv('./stat_scraper/logs/time_tracks/time_track_url.csv', result,
+        write_csv('stat_scraper/logs/time_tracks/time_track_url.csv', result,
                   ['process_type', 'worker_amount',
                    'urls_count', 'running_time'])
     return surrogate
