@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "foot-stat-scraper"
+name = "football-stat-scraper"
 version = "0.1.0"
 description = ""
 authors = ["MaksimPerepeliuk <maksim.perepelyuk@mail.ru>"]

@@ -1,5 +1,5 @@
 from stat_scraper.utils import time_track, write_csv, get_csv_rows
-from stat_scraper.utils import chunk, send_email
+from stat_scraper.utils import chunk, send_email, write_text_file
 from stat_scraper.fs_live_stat_parser import get_live_stat
 from stat_scraper.fs_past_stat_parser import get_past_stat
 from stat_scraper.logs.loggers import app_logger
@@ -31,10 +31,10 @@ def run_parse(filename, url):
         summary_stat.update(get_live_stat(url))
         summary_stat.update(get_past_stat(url))
     except Exception:
+        write_text_file('stat_scraper/urls/failed_urls.txt', url)
         app_logger.exception(f'ERROR RUN PARSE ON URL {url}')
     data = normalize_data(summary_stat)
     write_csv(filename, data, data.keys())
-    app_logger.info('')
 
 
 @time_track

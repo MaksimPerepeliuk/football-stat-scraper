@@ -29,7 +29,7 @@ def run_parse(urls, filename):
 
 
 if __name__ == '__main__':
-    run(urls, 'smoke_test_result.txt')
+    run_parse(urls, 'smoke_test_result.txt')
 
 
 # [Running] /usr/bin/python3 "/home/max/Projects/football-stat-scraper/tests/past_stat_smoke_test.py"

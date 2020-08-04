@@ -10,15 +10,6 @@ from functools import partial
 from stat_scraper.utils import chunk, send_email
 from stat_scraper.db_manager import select_all_urls
 from stat_scraper.utils import time_track
-# from multiprocessing.dummy import Pool as ThreadPool
-
-
-def get_average_time(filename='stat_scraper/logs/time_tracks/time_track_url.csv'):
-    rows = get_csv_rows(filename)
-    run_seconds = []
-    for row in rows[1:]:
-        run_seconds.append(float(row[0].split(',')[-1]))
-    return round(sum(run_seconds) / len(run_seconds), 3)
 
 
 def run_parse(filename, url):
@@ -48,6 +39,14 @@ def run_multi_parse(urls, n_proc):
     }
 
 
+def get_average_time(filename='stat_scraper/logs/time_tracks/time_track_url.csv'):
+    rows = get_csv_rows(filename)
+    run_seconds = []
+    for row in rows[1:]:
+        run_seconds.append(float(row[0].split(',')[-1]))
+    return round(sum(run_seconds) / len(run_seconds), 3)
+
+
 def main(n_proc=2, mail_every_sec=60):
     urls = select_all_urls()[:30]
     urls_chunks = chunk(urls, 5)
@@ -68,5 +67,5 @@ def main(n_proc=2, mail_every_sec=60):
 
 
 if __name__ == '__main__':
-    for n_proc in range(1, 6):
+    for n_proc in range(2, 6):
         main(n_proc)

@@ -62,5 +62,5 @@ def get_csv_rows(filename):
 
 
 def write_text_file(filename, text):
-    with open(filename, 'w') as file:
-        file.write(text)
+    with open(filename, 'a') as file:
+        file.write(f'{text}, ')
