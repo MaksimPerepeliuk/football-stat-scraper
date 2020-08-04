@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 
 
-def get_html(url):
+def get_page_source(url):
     try:
         driver = get_driver()
         driver.get(url)
@@ -30,7 +30,7 @@ def normalize_value(value):
 
 
 def get_half_stat(url, half, command_id=None):
-    html = get_html(url)
+    html = get_page_source(url)
     soup = BeautifulSoup(html, 'lxml')
     app_logger.info(f'Start parsing HALF {half} stat for {url}\n')
     half_table = ('div#tab-statistics-1-statistic'
@@ -64,7 +64,7 @@ def get_half_stat(url, half, command_id=None):
 
 
 def get_main_stat(url):
-    html = get_html(url)
+    html = get_page_source(url)
     soup = BeautifulSoup(html, 'lxml')
     app_logger.info(f'Start parsing MAIN stat for {url}\n')
     main_stat = {}

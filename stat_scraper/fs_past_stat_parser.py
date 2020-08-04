@@ -1,4 +1,4 @@
-from stat_scraper.fs_live_stat_parser import get_html, get_main_stat
+from stat_scraper.fs_live_stat_parser import get_page_source, get_main_stat
 from stat_scraper.fs_live_stat_parser import get_half_stat
 from stat_scraper.init_driver import get_driver
 from selenium.webdriver.common.keys import Keys
@@ -9,8 +9,20 @@ import requests
 import time
 
 
+USER_AGENT = UserAgent().chrome
+
+
+def get_html(url):
+    try:
+        r = requests.get(url, headers={'User-Agent': USER_AGENT})
+        app_logger.info(f'Received html {url} STATUS {r.status_code}\n')
+    except Exception:
+        app_logger.exception(f'Error receive html {url}\n')
+    if r.ok:
+        return r.text
+
+
 def rows_filter(stat_rows, championate, limit=15):
-    user_agent = UserAgent().chrome
     filtered_rows = []
     for stat_row in stat_rows:
         if len(filtered_rows) == limit:
@@ -18,8 +30,7 @@ def rows_filter(stat_rows, championate, limit=15):
         try:
             event_id = stat_row['id'][4:]
             url = 'https://www.flashscore.com/match/' + event_id
-            r = requests.get(url, headers={'User-Agent': user_agent})
-            soup = BeautifulSoup(r.text, 'lxml')
+            soup = BeautifulSoup(get_html(url), 'lxml')
             elem_champ = soup.select(
                 'span.description__country')[0].text.split(':')[1].split('-')[0].strip()
         except Exception:
@@ -156,7 +167,7 @@ def add_type_command(stats, type_command):
 
 def get_past_stat(url):
     main_stat = get_main_stat(url)
-    html = get_html(url)
+    html = get_page_source(url)
     soup = BeautifulSoup(html, 'lxml')
     app_logger.info(f'Start collect PAST stat data from {url}\n')
     template = 'https://www.flashscore.com{}/results/'

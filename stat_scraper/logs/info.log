@@ -1,0 +1,1783 @@
+INFO     scraper.py[LINE:42 2020-08-04 13:43-10][MainProcess][run_multi_parse] Start multiprocess function urls - 10 num processes - 10
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-15][ForkPoolWorker-7][get_page_source] Received html https://www.flashscore.com/match/nF32vKjc
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-15][ForkPoolWorker-1][get_page_source] Received html https://www.flashscore.com/match/C2xXOviA
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-15][ForkPoolWorker-7][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/nF32vKjc
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-15][ForkPoolWorker-1][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/C2xXOviA
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-4][get_page_source] Received html https://www.flashscore.com/match/baAKFzEd
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-4][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/baAKFzEd
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-5][get_page_source] Received html https://www.flashscore.com/match/YBwTPKy4
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-5][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/YBwTPKy4
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-3][get_page_source] Received html https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-3][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-6][get_page_source] Received html https://www.flashscore.com/match/QozLRt7i
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-10][get_page_source] Received html https://www.flashscore.com/match/UwXyOb6G
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-6][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/QozLRt7i
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-2][get_page_source] Received html https://www.flashscore.com/match/K8BGGGbj
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-10][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/UwXyOb6G
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-2][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/K8BGGGbj
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-8][get_page_source] Received html https://www.flashscore.com/match/8UVuNILM
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-8][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/8UVuNILM
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-16][ForkPoolWorker-9][get_page_source] Received html https://www.flashscore.com/match/Otdx3cUj
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-16][ForkPoolWorker-9][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/Otdx3cUj
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-19][ForkPoolWorker-7][get_page_source] Received html https://www.flashscore.com/match/nF32vKjc#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-19][ForkPoolWorker-7][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/nF32vKjc#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-20][ForkPoolWorker-4][get_page_source] Received html https://www.flashscore.com/match/baAKFzEd#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-20][ForkPoolWorker-4][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/baAKFzEd#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-20][ForkPoolWorker-1][get_page_source] Received html https://www.flashscore.com/match/C2xXOviA#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-20][ForkPoolWorker-1][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/C2xXOviA#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-20][ForkPoolWorker-3][get_page_source] Received html https://www.flashscore.com/match/xpMBHdqp#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-20][ForkPoolWorker-3][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/xpMBHdqp#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-21][ForkPoolWorker-5][get_page_source] Received html https://www.flashscore.com/match/YBwTPKy4#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-21][ForkPoolWorker-5][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/YBwTPKy4#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-21][ForkPoolWorker-6][get_page_source] Received html https://www.flashscore.com/match/QozLRt7i#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-21][ForkPoolWorker-6][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/QozLRt7i#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-21][ForkPoolWorker-8][get_page_source] Received html https://www.flashscore.com/match/8UVuNILM#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-21][ForkPoolWorker-8][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/8UVuNILM#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-21][ForkPoolWorker-2][get_page_source] Received html https://www.flashscore.com/match/K8BGGGbj#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-21][ForkPoolWorker-2][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/K8BGGGbj#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-21][ForkPoolWorker-9][get_page_source] Received html https://www.flashscore.com/match/Otdx3cUj#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-21][ForkPoolWorker-9][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/Otdx3cUj#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-22][ForkPoolWorker-10][get_page_source] Received html https://www.flashscore.com/match/UwXyOb6G#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-22][ForkPoolWorker-10][get_half_stat] Start parsing HALF 1st_half stat for https://www.flashscore.com/match/UwXyOb6G#match-statistics;1
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-23][ForkPoolWorker-7][get_page_source] Received html https://www.flashscore.com/match/nF32vKjc#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-23][ForkPoolWorker-7][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/nF32vKjc#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-23][ForkPoolWorker-1][get_page_source] Received html https://www.flashscore.com/match/C2xXOviA#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-23][ForkPoolWorker-1][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/C2xXOviA#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-24][ForkPoolWorker-4][get_page_source] Received html https://www.flashscore.com/match/baAKFzEd#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-24][ForkPoolWorker-4][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/baAKFzEd#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-24][ForkPoolWorker-3][get_page_source] Received html https://www.flashscore.com/match/xpMBHdqp#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-24][ForkPoolWorker-3][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/xpMBHdqp#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-25][ForkPoolWorker-6][get_page_source] Received html https://www.flashscore.com/match/QozLRt7i#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-25][ForkPoolWorker-6][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/QozLRt7i#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-25][ForkPoolWorker-2][get_page_source] Received html https://www.flashscore.com/match/K8BGGGbj#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-25][ForkPoolWorker-9][get_page_source] Received html https://www.flashscore.com/match/Otdx3cUj#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-25][ForkPoolWorker-8][get_page_source] Received html https://www.flashscore.com/match/8UVuNILM#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-25][ForkPoolWorker-2][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/K8BGGGbj#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-25][ForkPoolWorker-9][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/Otdx3cUj#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-25][ForkPoolWorker-8][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/8UVuNILM#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-26][ForkPoolWorker-5][get_page_source] Received html https://www.flashscore.com/match/YBwTPKy4#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-26][ForkPoolWorker-5][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/YBwTPKy4#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-27][ForkPoolWorker-10][get_page_source] Received html https://www.flashscore.com/match/UwXyOb6G#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:35 2020-08-04 13:43-27][ForkPoolWorker-10][get_half_stat] Start parsing HALF 2nd_half stat for https://www.flashscore.com/match/UwXyOb6G#match-statistics;2
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-27][ForkPoolWorker-7][get_page_source] Received html https://www.flashscore.com/match/nF32vKjc
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-27][ForkPoolWorker-1][get_page_source] Received html https://www.flashscore.com/match/C2xXOviA
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-27][ForkPoolWorker-1][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/C2xXOviA
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-27][ForkPoolWorker-7][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/nF32vKjc
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-28][ForkPoolWorker-4][get_page_source] Received html https://www.flashscore.com/match/baAKFzEd
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-28][ForkPoolWorker-4][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/baAKFzEd
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-29][ForkPoolWorker-8][get_page_source] Received html https://www.flashscore.com/match/8UVuNILM
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-29][ForkPoolWorker-9][get_page_source] Received html https://www.flashscore.com/match/Otdx3cUj
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-29][ForkPoolWorker-8][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/8UVuNILM
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-29][ForkPoolWorker-9][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/Otdx3cUj
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-29][ForkPoolWorker-3][get_page_source] Received html https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-30][ForkPoolWorker-3][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-30][ForkPoolWorker-2][get_page_source] Received html https://www.flashscore.com/match/K8BGGGbj
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-30][ForkPoolWorker-2][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/K8BGGGbj
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-30][ForkPoolWorker-6][get_page_source] Received html https://www.flashscore.com/match/QozLRt7i
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-30][ForkPoolWorker-6][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/QozLRt7i
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-30][ForkPoolWorker-5][get_page_source] Received html https://www.flashscore.com/match/YBwTPKy4
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-30][ForkPoolWorker-5][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/YBwTPKy4
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-31][ForkPoolWorker-10][get_page_source] Received html https://www.flashscore.com/match/UwXyOb6G
+
+INFO     fs_live_stat_parser.py[LINE:69 2020-08-04 13:43-31][ForkPoolWorker-10][get_main_stat] Start parsing MAIN stat for https://www.flashscore.com/match/UwXyOb6G
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-32][ForkPoolWorker-1][get_page_source] Received html https://www.flashscore.com/match/C2xXOviA
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-32][ForkPoolWorker-1][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/C2xXOviA
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-32][ForkPoolWorker-4][get_page_source] Received html https://www.flashscore.com/match/baAKFzEd
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-32][ForkPoolWorker-7][get_page_source] Received html https://www.flashscore.com/match/nF32vKjc
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-32][ForkPoolWorker-4][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/baAKFzEd
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-32][ForkPoolWorker-7][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/nF32vKjc
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-34][ForkPoolWorker-9][get_page_source] Received html https://www.flashscore.com/match/Otdx3cUj
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-34][ForkPoolWorker-9][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/Otdx3cUj
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-34][ForkPoolWorker-2][get_page_source] Received html https://www.flashscore.com/match/K8BGGGbj
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-34][ForkPoolWorker-8][get_page_source] Received html https://www.flashscore.com/match/8UVuNILM
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-34][ForkPoolWorker-2][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/K8BGGGbj
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-34][ForkPoolWorker-8][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/8UVuNILM
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-34][ForkPoolWorker-3][get_page_source] Received html https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-34][ForkPoolWorker-3][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/xpMBHdqp
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-34][ForkPoolWorker-6][get_page_source] Received html https://www.flashscore.com/match/QozLRt7i
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-34][ForkPoolWorker-6][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/QozLRt7i
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-34][ForkPoolWorker-5][get_page_source] Received html https://www.flashscore.com/match/YBwTPKy4
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-35][ForkPoolWorker-5][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/YBwTPKy4
+
+INFO     fs_live_stat_parser.py[LINE:14 2020-08-04 13:43-35][ForkPoolWorker-10][get_page_source] Received html https://www.flashscore.com/match/UwXyOb6G
+
+INFO     fs_past_stat_parser.py[LINE:196 2020-08-04 13:43-35][ForkPoolWorker-10][get_past_stat] Start collect PAST stat data from https://www.flashscore.com/match/UwXyOb6G
+
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-38][ForkPoolWorker-1][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/estudiantes-l-p/p2SkCHXs/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-39][ForkPoolWorker-4][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/talleres-cordoba/bkDdeAvA/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-40][ForkPoolWorker-7][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/atl-tucuman/KpqpxWko/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-41][ForkPoolWorker-9][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/boca-juniors/hMrWAFH0/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-42][ForkPoolWorker-2][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/union-de-santa-fe/lr2YMkTK/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-42][ForkPoolWorker-5][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/independiente/UVatI5Y2/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-42][ForkPoolWorker-6][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/san-lorenzo/ju1xJoJd/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-43][ForkPoolWorker-10][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/banfield/GIb40wNM/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-43][ForkPoolWorker-8][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/defensa-y-justicia/Gdfv0Zsh/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:43-43][ForkPoolWorker-3][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/newells-old-boys/6gMiRHVj/results/ page
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:43-55][ForkPoolWorker-1][find_previous_events] Start finding PREV events for 10.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:43-55][ForkPoolWorker-1][find_previous_events] LAST date in received stat rows = 05.02.2009
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:43-58][ForkPoolWorker-4][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:43-58][ForkPoolWorker-4][find_previous_events] LAST date in received stat rows = 02.11.2003
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:43-59][ForkPoolWorker-7][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:43-59][ForkPoolWorker-7][find_previous_events] LAST date in received stat rows = 08.04.2001
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-00][ForkPoolWorker-5][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-00][ForkPoolWorker-5][find_previous_events] LAST date in received stat rows = 14.12.2008
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-01][ForkPoolWorker-2][find_previous_events] Start finding PREV events for 10.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-01][ForkPoolWorker-2][find_previous_events] LAST date in received stat rows = 02.06.2007
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-01][ForkPoolWorker-10][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-02][ForkPoolWorker-10][find_previous_events] LAST date in received stat rows = 06.10.2007
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-02][ForkPoolWorker-3][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-02][ForkPoolWorker-3][find_previous_events] LAST date in received stat rows = 02.12.2007
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-02][ForkPoolWorker-8][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-02][ForkPoolWorker-8][find_previous_events] LAST date in received stat rows = 09.09.2007
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-03][ForkPoolWorker-6][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-03][ForkPoolWorker-6][find_previous_events] LAST date in received stat rows = 29.11.2009
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-04][ForkPoolWorker-9][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-04][ForkPoolWorker-9][find_previous_events] LAST date in received stat rows = 07.03.2010
+
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-04][ForkPoolWorker-1][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/racing-club/OhapHPm9/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-08][ForkPoolWorker-7][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/river-plate/EVqSBe2f/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-08][ForkPoolWorker-4][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/colon-santa-fe/SAk2Byml/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-08][ForkPoolWorker-5][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/central-cordoba-santiago-del-estero/0dHZReql/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-09][ForkPoolWorker-2][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/velez-sarsfield/UsCR8gFd/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-09][ForkPoolWorker-10][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/huracan/xd3lGq3F/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-10][ForkPoolWorker-3][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/godoy-cruz/tUAxIm6l/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-10][ForkPoolWorker-6][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/lanus/Y9yh1J7G/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-11][ForkPoolWorker-8][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/patronato/rkRIZdfG/results/ page
+INFO     fs_past_stat_parser.py[LINE:145 2020-08-04 13:44-11][ForkPoolWorker-9][get_more_events] Start CLICKING to show more btn on https://www.flashscore.com/team/gimnasia-l-p/jiDN9Zaj/results/ page
+ERROR    fs_past_stat_parser.py[LINE:151 2020-08-04 13:44-19][ForkPoolWorker-5][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 149, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-20][ForkPoolWorker-5][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-20][ForkPoolWorker-5][find_previous_events] LAST date in received stat rows = 20.08.2012
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-20][ForkPoolWorker-5][get_summary_stat] Start received SUMMARY stats for Independiente
+
+ERROR    fs_past_stat_parser.py[LINE:151 2020-08-04 13:44-22][ForkPoolWorker-8][get_more_events] Button show more events not found url {url}
+Traceback (most recent call last):
+  File "/home/max/Projects/football-stat-scraper/stat_scraper/fs_past_stat_parser.py", line 149, in get_more_events
+    more_event_btn.click()
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/max/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=84.0.4147.89)
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-23][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/zsegrNhO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-23][ForkPoolWorker-8][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-23][ForkPoolWorker-8][find_previous_events] LAST date in received stat rows = 25.06.2009
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-23][ForkPoolWorker-8][get_summary_stat] Start received SUMMARY stats for Defensa y Justicia
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-24][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/WWn2phIf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-24][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/WYiARwCF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-24][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/GYo01pgn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-25][ForkPoolWorker-1][find_previous_events] Start finding PREV events for 10.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-25][ForkPoolWorker-1][find_previous_events] LAST date in received stat rows = 04.04.2009
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-25][ForkPoolWorker-1][get_summary_stat] Start received SUMMARY stats for Estudiantes L.P.
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-25][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/h2DjhRcr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-25][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/rmSOWYme STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-26][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/6RUOFtD3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-26][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/4nMLteG4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-27][ForkPoolWorker-2][find_previous_events] Start finding PREV events for 10.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-27][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/boXLGhNG STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-27][ForkPoolWorker-4][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-27][ForkPoolWorker-2][find_previous_events] LAST date in received stat rows = 22.06.2008
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-27][ForkPoolWorker-2][get_summary_stat] Start received SUMMARY stats for Union de Santa Fe
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-27][ForkPoolWorker-4][find_previous_events] LAST date in received stat rows = 03.10.2007
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-27][ForkPoolWorker-10][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-27][ForkPoolWorker-4][get_summary_stat] Start received SUMMARY stats for Talleres Cordoba
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-27][ForkPoolWorker-10][find_previous_events] LAST date in received stat rows = 18.05.2008
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-27][ForkPoolWorker-10][get_summary_stat] Start received SUMMARY stats for Banfield
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-27][ForkPoolWorker-6][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-27][ForkPoolWorker-6][find_previous_events] LAST date in received stat rows = 31.05.2008
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-27][ForkPoolWorker-6][get_summary_stat] Start received SUMMARY stats for San Lorenzo
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-28][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/nauyHVit STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-28][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/SEOODaQI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-28][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/EXgcss8U STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-28][ForkPoolWorker-7][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-29][ForkPoolWorker-7][find_previous_events] LAST date in received stat rows = 18.04.2011
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-29][ForkPoolWorker-7][get_summary_stat] Start received SUMMARY stats for Atl. Tucuman
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-29][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/nBRGsy1b STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-29][ForkPoolWorker-3][find_previous_events] Start finding PREV events for 09.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-29][ForkPoolWorker-3][find_previous_events] LAST date in received stat rows = 03.05.2008
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-29][ForkPoolWorker-3][get_summary_stat] Start received SUMMARY stats for Newells Old Boys
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-29][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/pEwHc2hB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:163 2020-08-04 13:44-29][ForkPoolWorker-9][find_previous_events] Start finding PREV events for 08.03.2020
+
+INFO     fs_past_stat_parser.py[LINE:166 2020-08-04 13:44-29][ForkPoolWorker-9][find_previous_events] LAST date in received stat rows = 27.10.2007
+
+INFO     fs_past_stat_parser.py[LINE:100 2020-08-04 13:44-29][ForkPoolWorker-9][get_summary_stat] Start received SUMMARY stats for Boca Juniors
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-29][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/xrmd2Qwt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-29][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/SGiopqOB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-29][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/SK53kPs1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/QgfBOewo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/ANo6qCX0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/6NvDbrw5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/EmrLdM7H STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/Obk8aONb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/by0UmROn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/4dTKXEYl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/vFqtuctF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/ph2toP85 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/babfoJpb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/beO6QcRL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/613xn5ga STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-30][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/pnR234Xj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/hI9Fgde8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/jg3oJFJe STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/W88JhGAE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/ljzKGMcc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/rgqUgajp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/djfytwR8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/GrLz4Ue1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/EyUp22R6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/IaeXtJB2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/fR9xLykq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/AuN76NHa STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/xlYmETya STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-31][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/zm877IKq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/2eVaBRLH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/OGffAwsM STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/O6LucGqA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/WGnE0ek9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/GjsEPJBD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/6V4Cz2Wu STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/fmor1MtD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/6RE0J3ds STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/O4WeC76B STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/zNnfCnkE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/pID4INBm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/SKRY44sl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/pSdN3yKk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/d2tunyJI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-32][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/t4uw3TgA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/rVMS5jRl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/lU6aj5Sf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/rmj2AQJQ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/8dWQy6D1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/6VlFteaT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/nmVUzQS7 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/vJJTaIai STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/UgejBJRF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/lxH1YHlJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/46daQ2jr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-33][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/KhBSWJV4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-34][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/pxnU4kPc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/ImscnaVi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/bqAWVwoB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/jarsLMWh STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/xULNXaGb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/dtXLCqMr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/pdxU5pSs STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/KvWgIKGB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/ObLzUdR9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/Wj3NRXm8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/As2RQi3E STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/4p3K8wPu STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/hANhzvK6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/lUro17OM STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/Y1KHeonp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/ELTdI5bL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/rgLF41nC STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/WdY5kGOH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/WhYk0RwT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-35][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/UoPv3lB7 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/veXFbTKE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6Z0dDYYE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/jBQA2Q2F STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/zRvs2m9G STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/O8pRjpsN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/SpV6qrcK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/O6mVxtON STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/4SNfvyPC STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/lO1BkNrT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/d2Kntcf0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/SrtNbZJL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/69DvUHFN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/fcturSHp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/KdoGiuks STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-36][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/YJ9qghQo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/2u5qc1RJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/IHYJdXVp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/ve9JyK7q STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/4AKPpy43 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/SMlOkJJg STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/CE6JX4zo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/GtUb8qmm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6gLtwtzl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/nVPY9s61 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/j3WPB3yk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/0Yk8OtLf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/SMl6e8Si STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/EZOOZFBE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/Q9hIdzFd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-37][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/S4RpL7E2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-38][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/EyIKXpb8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-38][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/4K7YHVGH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-38][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/KIIPgPGd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/4AWDmfgU STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/QJX9lzvO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/ABL5KzOi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/j7GLoHlc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/jeYCBlNu STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/fReEtOOb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/b7tghIva STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/0SbKgYol STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/j15W5y9b STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-39][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/nJgEcGaj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/6DmSlwZa STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/ERxDEHRM STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/WOOrSzdM STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/KGRvumrB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/Qam2dOy2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/hIyHDysT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/QDrUDYle STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/zLc7j3TM STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/Q7V1H55g STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/tOiAs49h STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-40][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/4Okff2Ae STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/WYkZfZ06 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/C2Im8F4j STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/M5mp01t3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/d6bC1dkB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/nNqQEEZl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/4MbIbH1s STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/8zBWcywJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/vH4fg77B STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/8tMcoO4p STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/YJiEgnc4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/ARXAPh0i STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/Kl7N70Nc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/ry2O7cvn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/roN24nY2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-41][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/CfYcfmh5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/r91odOuq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/2iLifsgb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/lUbv4IMM STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/61Z4GwcA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/zmxyRrCp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/vwpvuBmf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/xnkfV9OE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/8UJu1GgE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/hATVKUEM STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/MZOAFqz6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-42][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/nqL0RiJf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-43][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/WATX6QyB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-43][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/8IyeyTnJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-43][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/fRVcxXGD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-43][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/x8M636m9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-44][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/EiGXpwGp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-44][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/SU4Dc1U2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-44][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/fRHqd3Oo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-44][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/2ZRkQE6s STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-44][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/YF3kLGdL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-44][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/6Bt47cFf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-44][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/rBjVtXIs STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/St1Ev2tp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/nLIq0z9K STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/jHRiTDlr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/Qa3eaZZ1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/QD2iZ644 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/t243oDAQ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/fZuNiQRG STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/QwWock8n STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/xCzP8n7b STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/hn5m1e5k STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-45][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/K09KtUN5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/vq1q2yjq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/YL47DAPO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/IuN5Umrd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/t8LRIoKN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/0WGZoplA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/EV2Ohh1f STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/Y3gHG1h8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/M1kukA0J STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/zROouZWf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-46][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/IZod1QL5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-47][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6kTELmz5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-47][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/QwAGsA8a STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-47][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/ppIUy6P9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-48][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/dKicXVGQ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-48][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/Whlq3xxT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-48][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/EwyuQ2Rj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-48][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/j1DEME28 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-48][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/KY4X8Aja STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-49][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/vHSQm6Jc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-49][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/0hQ6N95h STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-49][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/K831qQvt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-49][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/G2e4W4lN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-49][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/0n5c1Pmc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-49][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/rLoYWeMp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-49][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/S8VuP7O6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/p2u86HU0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/CfhLFL7E STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/nqHqZq6q STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/U5Lwo43G STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/bP3y8U55 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/fXMbTvxE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/prDMfKVl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-50][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/8pGCsH1n STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-51][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/QVy0Aar3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-51][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/lIWyQm90 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-51][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/hlCZLsCc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-51][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/A1Kej5v3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-51][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/fekxWFyi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-51][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/jLimtLGe STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-52][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/UBjiuuW1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/KxRXkY0J STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/0jD8m3OL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/pKYw3rO8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/lOP2Sdze STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/S6vD4tsN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6c1Vhb01 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/QHxufSNt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/hUqlApDo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-53][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/44T5TsXk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-54][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/ILnLazKN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-54][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/MqWmh6hg STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-54][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/IB3Rz5NI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/KYpAmxyj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/2gjvQ3Ed STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/h4I1t9gs STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/KMjcEjAl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/WzJuNaJi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/OEmEA89D STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/tGaMQQbI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/r3f82xz5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-55][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/8vFoJudG STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/OEBMKhXK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/jP55o1zo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/SSRJ0Xuk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/fJwlK07r STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/Mm0UgPS4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6gJQxnA3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/pGfmdyiU STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-56][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/8Q95S3r5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-57][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/lEdl5SkO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-58][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/CSXeBuTd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/h88Dc7Tu STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/4WBcB0K3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/zkFQJCnR STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/MFKrbjpm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/QXSy6piH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/vsYs22wF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/4A81Vlpm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/von07rc4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/tjGVi3cH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:44-59][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/OGAYRFwe STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/Ovu84h7J STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/IF3sQg87 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/voIlWoqt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/CWgPVxkc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/YegfzSzq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/GdvMlmic STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/CWVGLhRk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/CzC9TSEa STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/CYO0k4xC STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-01][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/2cj5lILq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/UuKncAag STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/C2IF0q6o STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/OUa5SOa2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/EBCNulDL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/KW1quHMA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/8bmYTGJ9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/xIydZinE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/nuDveuzN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/M99MnRL9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-03][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/KtFZjNCN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/SIhbZojk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/QFJp3N9g STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/YB3E7IJS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/vNy77Nrk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/YyXtp347 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/AwS1g7sL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/hGzs9Fsp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/djKRcsj4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-04][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/0bT2cJ5e STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-05][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/fa1ESnU5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-05][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/C6x6RchB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-05][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/U7G1au9I STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-05][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/KzhedFd9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/AyiQu9UI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/tQhnBx8U STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/YFw2Sww5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/pGGNbNzb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/tWVNaiee STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/KCHym5Kl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/nBLdUPDh STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-06][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/vJ1Jn2PC STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/QDhices3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/AHGNYKbo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/phfMAEB2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/zLDJtUcF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/xlpgUa8h STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/tda9qiVg STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/QTS9DxM4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-07][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/653BlOf0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/je8eelU5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/xhz5obri STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/G0haYjm5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/rVEVWbTc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/QFeWDP5L STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/CWLd0LgC STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/naXOKnyd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-08][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/GGAbiQAs STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-09][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/Wb7HdRrn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-09][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/AorJNfjp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-09][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/MHo7XPK1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-09][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/fii3XA2B STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-09][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/bL5keHpr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/YN314cWu STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/CAlmbySd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/KfCuMMcr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/riUu43fm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/2FoqtrkE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/2u7dyEKq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/OIN1VTSk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-10][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/xlMpKFpo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/hQuB6sbe STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/KMfh80Y6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/fcYjpfoO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/0WKUufCS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/fBDPbg0H STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/nRmeZWXb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/C8erxZmt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/08Yp2S69 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-11][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/tzxdIvxe STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-12][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/fRq6A5HJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-12][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/48uvmd15 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-12][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/xI3cHqfN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-12][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/p4SEP13s STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-12][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/0vchSxqm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-12][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/0WryUydJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-12][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/p0x383Tr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-13][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/nPdSE5jF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-13][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/xYLdzJHa STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-13][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/bLB3gSbI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-13][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/tUG91tb8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-13][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/hnHlzCQF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-13][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/YJTDqxD3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-13][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/b9o3Ujk9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-14][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/WfaVJcXI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-14][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/0zZnozWH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-14][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/h2cOFoy9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-14][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/QHtzlxna STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-14][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/KzbXAsXj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-14][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/lOwgeTC8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/UVOE6Su5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/ObF1F2Nq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/fDQNYasl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/8MNI5neB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/0fJ6Ptnp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/pvcJMam0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/IisWlIWh STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-15][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/EeIpyhB9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-16][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/82eXgkda STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-16][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/8CfvDbwI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-16][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/WbZIvJje STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-16][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/4xwMT7zb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-16][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/h6DPfpaq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-16][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/2PhhJj7K STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-16][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/v37xM7uh STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-17][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/nTnvW3QD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-17][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/G821G39T STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-17][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/QJorVNuK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-17][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/Uej1z4a9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/4KcNGtvg STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/UwZGlu2T STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/EHgLmVfF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/Wbelfbjr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/ENONww61 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/nTApKoA4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/UyfS038j STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/IeVEuayk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/0rwH7EP5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-18][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/Ui0kJ5PA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/MkTZJrFS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/MXFD72ug STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/MmblTITt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/2RBxrWk6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/nwzFUi4S STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/K0P6VdZp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/SQlchxLf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-19][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/jJlm19yB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-20][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/zaxPrAV7 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-20][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/6Hm1idz1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-20][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6VExwEtc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-20][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/dnUm8QbJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-20][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/MJ8RlXlq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-20][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/CtF9N48M STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-21][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/Wt46ZMtd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-21][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/plrcIAMQ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-21][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/KQ8ADthd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-21][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/6N46EMxj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-21][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/joeO1qgp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-21][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/lrzDoCok STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-21][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6DDDWzHO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-22][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/2R3V722i STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-22][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/WWpsQSfo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-22][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/I7FfN9Xr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-22][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/0bs0hN24 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-22][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/6gwBPnoi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-22][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/W2o0BdQt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-22][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/Iy1i3tME STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/vBgYFxIP STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/8dvSWOgA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/Iy72dTa7 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/nFDluUZO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/6mW4SOKE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/jFd5awKm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/M9ZODUUs STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-23][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/nw02tJE1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-24][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/lCgXx4AH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-24][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/GbZa7WZd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-24][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/KS9kSSgi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-24][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/M5ayg9B5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-24][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/bFYV9imJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-24][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/pr3WLctE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/4MKC1eGb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/QmepH2oj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/rNW4isIA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/nuuy95gT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/0KIz50nA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/GWxBEFYm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/6ypuTLiq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-25][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/MTJW5tX3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-26][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/fuLNm1MR STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-26][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/QVeDzZPk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-26][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/h8hPnkAL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-26][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/zJQ9dy46 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-26][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/rosGULFk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-26][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/rkXRoKkl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/zuAptAKI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/A1OrrxkD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/v7yJNQF3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/vo2m4M68 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/4dmKCmf4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/GpIqTEms STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/OrNzROdO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-27][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/4nCUQ7m2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-28][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/ttVyfNQA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-28][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/fyHmSY2m STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-28][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/rP5uIrWq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-28][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/rBQ63qHj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-28][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/fNXWB8af STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-28][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/AaoIw2tU STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-28][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/pEiihMCK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-29][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/lEAcYkeS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-29][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/jV0lpncn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-29][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/rqjmAfY5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-29][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/dSR5cHl0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-29][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/U7tDUROo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-30][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/xSzFVnrg STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-30][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/jmzDkLnN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-30][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/jixPdPth STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-30][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/EVfoG7r6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-30][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/dGDV2c8k STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-30][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/QN1qAM3f STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-30][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/GOrPRP84 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/OdtJCg30 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/vJTF0SrJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/tpLmBL09 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/A3uHXfuQ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/WAPvqIZ6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/0nccD5SO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/QDbIet1M STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-31][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/nmq5VqmH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-32][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/0K2cb4mo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-32][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/C8XqZLlo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-32][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/6oeMPKF2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-32][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/QqynkYvq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-32][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/AsltylJu STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-32][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/jm2yx4NF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-32][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/KWTugstH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-33][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/IBZhkvvj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-33][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/SK3Fm6ol STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-33][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/KfhHd7TP STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-33][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/byxBWSSn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-33][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/2q5IaKSK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-33][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/f90XOsQp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-34][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/vecpoSst STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-34][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/t8yIDa4H STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-34][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/2ZPAx1fp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-34][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/GWbWDxZt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-34][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/2wdSp4V6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-34][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/jatgJ3zt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-34][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/dG15Yuui STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/pIRvDsWd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/zZURL4pG STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/8d87K7H1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/CzjrROmb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/QHY5G1Kb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/4tHw1yw2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/bZj7dGn9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/n1npYQo1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-35][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/WKWmMQiD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-36][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/0vF14t9D STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-36][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/8zazqr0J STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-36][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/jkRuAnU6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-36][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/Y1Yij56g STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-36][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/4lmfU8Rq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-36][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/EuOHA33H STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/YaTSpnxm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/KAh5t4dB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/jaKN3Ozg STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/vuZmioim STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/KKqOHjqU STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/zLBqpaAp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/W2iR9sp0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-37][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/bqnDEukB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/KzAajuH9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/hhzJgPfe STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/vRgFxnxf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/tjEvqlaQ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/fL8057yH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/Wnwe5jUm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/p4ztOs8T STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/C8LJ44Ln STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-38][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/h0E5TNHT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-39][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/fJqjZcDB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-39][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/0zeBwSMm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-39][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/rNWcUg9g STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-39][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/rX3HVwP9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-39][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/n7NyyEqh STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-39][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/xdGlYBTA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-39][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/0fisEyKl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/4EAcsaae STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/IDjvS4Yi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/rVtSpPn4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/vN33Lm2e STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/2NH9Gn28 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/lvKLDpnR STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/U3S0RS5J STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/8MBpZiE4 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/UaWFgAx5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-40][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/8rLHAHVn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/vPMXXW0r STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/joNKF9Cj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/0G4BxXJ3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/ERvmZreL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/jDoSAROG STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/hATljjl3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/UTaDWJ93 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-41][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/t031tkvL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-42][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/6wPHmEyJ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-42][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/AmLHEQWK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-42][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/jqpfBZ37 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-42][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/prDrI5xK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-42][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/YRXLVO6J STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-42][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/IiF6wD4c STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/KYpA45b6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/QHn1nN5I STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/MNOjpwv3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/4bYNn0zr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/0bmRj8MN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/QJVCBcGt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/YoIuAVMo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/MBY6pyDl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/nJmubPTj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/Y79vJoND STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-43][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/zytqzPuF STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/viXYPvI7 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/8d0jPGpt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/EJUpiWYd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/SYKNStYl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/pEyTeqdb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/SAY9RigC STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/zVrdOeHq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/KrUconpo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-44][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/YchkB1MS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-45][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/QTx0tpIU STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-45][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/E1FquQu2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-45][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/l4ujw6Hq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-45][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/6Lqv7uUI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-45][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/00YUQK21 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-45][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/tpaREzbN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/bL9MFGrH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/dIWX6ZUB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/f54HKbbI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/nqggEoDI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/jm293o6T STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/2uqhgI7s STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/O6uStaBK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-46][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/OQF3oHcr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/zwkGax5e STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/MkL5n8mS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/YsAsHQvi STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/GzV5SXw6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/4nhsb7g9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/McgYVybe STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/zmpljKOq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/jgRenrQo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-47][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/4hHstML2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-48][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/ltBtuBNB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-48][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/QPC0Otag STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-48][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/vygoCs7M STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-48][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/djjRzhQD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-48][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/jBpmqnYB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/IF17oU93 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/8OYZJ6jA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/8YXzQfDE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/0OEDKqtS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/YX8bxvLR STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/OncOopG0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/SEvKaDHa STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/UqtOsudE STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/0tbeLi9T STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/negOsn9S STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-49][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/MDiXrgOn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-50][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/CQh6BAGB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-50][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/dpXLjPoq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-50][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/riftmLF3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-50][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/lA0snfm0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-50][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/WrNdORt3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-50][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/nRZ1Hs5h STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-50][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/My0gECWh STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-51][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/2euhMXgN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-51][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/fNZjJbEk STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-51][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/CnvUXrBh STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-51][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/d60BplP9 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-51][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/rRMFrFs1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-51][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/xAkwaL9i STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-51][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/CjhnwPUs STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-52][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/258i41to STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-52][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/rTJMwBwq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-52][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/4MKOub9T STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-52][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/ADEFaJtg STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-52][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/zR2gqhXI STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-52][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/UsZWQzb8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/Y3kSGyIA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/x6gKOKjS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/SvKmLbP2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/IVuY1rRO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/nTEzpUqK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/vXYMgiE2 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/llmDNbmo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-53][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/A7m3hGiq STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/bL7Uld3s STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/zRfxl10c STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/YNRcWQqd STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/WGSTwHxj STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/G045fIuK STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/beWwmUYn STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/OS8kOaOH STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-54][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/zXJXyfUo STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-55][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/S2MzWSvC STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-55][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/44so3X51 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-55][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/KYICr0PA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-55][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/As6Ks5MQ STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-55][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/0IwRi3P7 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/nTKYE4cO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/KxJSXlAa STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/8Q13S2i3 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/bJU3pMfb STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/06sGHxpl STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/pMer9pG1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/OnRJVJpT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/CfOGGkcp STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-56][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/AagH5QRa STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/ju0NHH24 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/MRGFs0J7 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/4r6MBAHc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/2Zk97ncm STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/M9ujCFl1 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/0COTKsFD STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/hdn72FXt STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/2JFyvBmA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-57][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/QgWGNqVf STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-58][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/lxDiTWmO STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-58][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/CWocqwFS STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-58][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/QNobEB1E STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-58][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/M7lNil7H STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-58][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/46rkoapG STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-58][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/fDGTjw9k STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-58][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/tGD10GXT STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-59][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/KEK2zcll STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-59][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/4QSZs3RA STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-59][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/jRKl3ImB STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-59][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/pAVITMIr STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-59][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/nHbWaCnL STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-59][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/UF2luVA0 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:45-59][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/v3q3ZtU6 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-8][get_html] Received html https://www.flashscore.com/match/vyRrfS9t STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-5][get_html] Received html https://www.flashscore.com/match/nXnfFin8 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-7][get_html] Received html https://www.flashscore.com/match/Imefy3af STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-9][get_html] Received html https://www.flashscore.com/match/ltc3nAfc STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-10][get_html] Received html https://www.flashscore.com/match/0YgtNefN STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-6][get_html] Received html https://www.flashscore.com/match/KCsxWMu5 STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-2][get_html] Received html https://www.flashscore.com/match/jLy7NypR STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-4][get_html] Received html https://www.flashscore.com/match/MwBDJ4Er STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-00][ForkPoolWorker-1][get_html] Received html https://www.flashscore.com/match/CMYXEasR STATUS 200
+
+INFO     fs_past_stat_parser.py[LINE:19 2020-08-04 13:46-01][ForkPoolWorker-3][get_html] Received html https://www.flashscore.com/match/WzDEzLJp STATUS 200
+
