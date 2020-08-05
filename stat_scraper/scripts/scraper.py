@@ -1,4 +1,4 @@
-from stat_scraper.utils import time_track, write_csv
+from stat_scraper.utils import time_track, write_csv, send_email
 from stat_scraper.utils import chunk, write_text_file
 from stat_scraper.fs_live_stat_parser import get_live_stat
 from stat_scraper.fs_past_stat_parser import get_past_stat
@@ -61,4 +61,4 @@ def main(n_proc):
 
 if __name__ == '__main__':
     main(10)
-    # send email
+    send_email(f'{SERVER_NAME}: Main function finish!!!')
